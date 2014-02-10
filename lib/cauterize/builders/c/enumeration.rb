@@ -43,7 +43,7 @@ module Cauterize
           formatter << render
           formatter.braces do
             @blueprint.values.values.each do |v|
-              formatter << "#{v.name.to_s.up_snake} = #{v.value},"
+              formatter << "#{v.name} = #{v.value},"
             end
           end
           formatter.append(";")

@@ -1,0 +1,805 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+.travisci.yml	.travisci.yml	//;"	f
+<<	./lib/cauterize/formatter.rb	/^  def <<(line)$/;"	f	class:Formatter
+Allocate	./support/cs/src/CauterizeTypes.cs	/^        protected void Allocate(T[] data)$/;"	m	class:Cauterize.CauterizeFixedArrayTyped
+Allocate	./support/cs/src/CauterizeTypes.cs	/^        protected void Allocate(T[] data)$/;"	m	class:Cauterize.CauterizeVariableArrayTyped
+Allocate	./support/cs/src/CauterizeTypes.cs	/^        protected void Allocate(int size)$/;"	m	class:Cauterize.CauterizeFixedArrayTyped
+Allocate	./support/cs/src/CauterizeTypes.cs	/^        protected void Allocate(int size)$/;"	m	class:Cauterize.CauterizeVariableArrayTyped
+BaseType	./lib/cauterize/base_type.rb	/^  class BaseType$/;"	c	class:Cauterize
+Baz	./support/cs/test/CauterizeGroupFormatterTest.cs	/^        public byte Baz { get; set; }$/;"	p	class:Cauterize.Test.TestGroup
+Binder	./support/cs/src/CauterizeFormatter.cs	/^        public SerializationBinder Binder { get; set; }$/;"	p	class:Cauterize.CauterizeFormatter
+Bool	./support/ruby/src/cauterize_ruby_builtins.rb	/^class Bool < CauterizeBuiltinBool$/;"	c
+Buildable	./lib/cauterize/builders/c/buildable.rb	/^      class Buildable$/;"	c	class:Cauterize.Builders.C
+Buildable	./lib/cauterize/builders/cs/buildable.rb	/^      class Buildable$/;"	c	class:Cauterize.Builders.CS
+Buildable	./lib/cauterize/builders/doc/buildable.rb	/^      class Buildable$/;"	c	class:Cauterize.Builders.Doc
+Buildable	./lib/cauterize/builders/ruby/buildable.rb	/^      class Buildable$/;"	c	class:Cauterize.Builders.Ruby
+BuildableException	./lib/cauterize/builders/c/buildable.rb	/^      class BuildableException < Exception; end$/;"	c	class:Cauterize.Builders.C
+BuildableException	./lib/cauterize/builders/cs/buildable.rb	/^      class BuildableException < Exception; end$/;"	c	class:Cauterize.Builders.CS
+BuildableException	./lib/cauterize/builders/doc/buildable.rb	/^      class BuildableException < Exception; end$/;"	c	class:Cauterize.Builders.Doc
+Builders	./lib/cauterize/builders.rb	/^  module Builders$/;"	m	class:Cauterize
+Builders	./lib/cauterize/builders/c/buildable.rb	/^  module Builders$/;"	m	class:Cauterize
+Builders	./lib/cauterize/builders/c/builtin.rb	/^  module Builders$/;"	m	class:Cauterize
+Builders	./lib/cauterize/builders/c/composite.rb	/^  module Builders$/;"	m	class:Cauterize
+Builders	./lib/cauterize/builders/c/enumeration.rb	/^  module Builders$/;"	m	class:Cauterize
+Builders	./lib/cauterize/builders/c/fixed_array.rb	/^  module Builders$/;"	m	class:Cauterize
+Builders	./lib/cauterize/builders/c/group.rb	/^  module Builders$/;"	m	class:Cauterize
+Builders	./lib/cauterize/builders/c/scalar.rb	/^  module Builders$/;"	m	class:Cauterize
+Builders	./lib/cauterize/builders/c/variable_array.rb	/^  module Builders$/;"	m	class:Cauterize
+Builders	./lib/cauterize/builders/cs/buildable.rb	/^  module Builders$/;"	m	class:Cauterize
+Builders	./lib/cauterize/builders/cs/enumeration.rb	/^  module Builders$/;"	m	class:Cauterize
+Builders	./lib/cauterize/builders/doc/buildable.rb	/^  module Builders$/;"	m	class:Cauterize
+Builders	./lib/cauterize/builders/doc/builtin.rb	/^  module Builders$/;"	m	class:Cauterize
+Builders	./lib/cauterize/builders/doc/composite.rb	/^  module Builders$/;"	m	class:Cauterize
+Builders	./lib/cauterize/builders/doc/enumeration.rb	/^  module Builders$/;"	m	class:Cauterize
+Builders	./lib/cauterize/builders/doc/fixed_array.rb	/^  module Builders$/;"	m	class:Cauterize
+Builders	./lib/cauterize/builders/doc/group.rb	/^  module Builders$/;"	m	class:Cauterize
+Builders	./lib/cauterize/builders/doc/scalar.rb	/^  module Builders$/;"	m	class:Cauterize
+Builders	./lib/cauterize/builders/doc/variable_array.rb	/^  module Builders$/;"	m	class:Cauterize
+Builders	./lib/cauterize/builders/ruby/buildable.rb	/^  module Builders$/;"	m	class:Cauterize
+BuiltIn	./lib/cauterize/builders/c/builtin.rb	/^      class BuiltIn < Buildable$/;"	c	class:Cauterize.Builders.C
+BuiltIn	./lib/cauterize/builders/cs/builtin.rb	/^  class BuiltIn < Buildable$/;"	c	class:Cauterize
+BuiltIn	./lib/cauterize/builders/doc/builtin.rb	/^      class BuiltIn < Buildable$/;"	c	class:Cauterize.Builders.Doc
+BuiltIn	./lib/cauterize/builders/ruby/builtin.rb	/^  class BuiltIn < Buildable$/;"	c	class:Cauterize
+BuiltIn	./lib/cauterize/builtin.rb	/^  class BuiltIn < BaseType$/;"	c	class:Cauterize
+Byte1	./support/cs/test/CauterizeIntegrationTest.cs	/^        public Byte Byte1 { get; set; }$/;"	p	class:Cauterize.Test.TestSubComp
+Byte2	./support/cs/test/CauterizeIntegrationTest.cs	/^        public Byte Byte2 { get; set; }$/;"	p	class:Cauterize.Test.TestSubComp
+BytesFromValue	./support/cs/src/PrimitiveSupport.cs	/^        static public byte[] BytesFromValue(object value)$/;"	m	class:Cauterize.PrimitiveSupport
+C	./lib/cauterize/builders/c/buildable.rb	/^    module C$/;"	m	class:Cauterize.Builders
+C	./lib/cauterize/builders/c/builtin.rb	/^    module C$/;"	m	class:Cauterize.Builders
+C	./lib/cauterize/builders/c/composite.rb	/^    module C$/;"	m	class:Cauterize.Builders
+C	./lib/cauterize/builders/c/enumeration.rb	/^    module C$/;"	m	class:Cauterize.Builders
+C	./lib/cauterize/builders/c/fixed_array.rb	/^    module C$/;"	m	class:Cauterize.Builders
+C	./lib/cauterize/builders/c/group.rb	/^    module C$/;"	m	class:Cauterize.Builders
+C	./lib/cauterize/builders/c/scalar.rb	/^    module C$/;"	m	class:Cauterize.Builders
+C	./lib/cauterize/builders/c/variable_array.rb	/^    module C$/;"	m	class:Cauterize.Builders
+CAUTERIZE_C	./support/c/src/cauterize.c	/^#define CAUTERIZE_C$/;"	d	file:
+CAUTERIZE_C	./support/c/src/cauterize.c	/^#undef CAUTERIZE_C$/;"	d	file:
+CBuilder	./lib/cauterize/c_builder.rb	/^  class CBuilder$/;"	c	class:Cauterize
+CS	./lib/cauterize/builders/cs/buildable.rb	/^    module CS$/;"	m	class:Cauterize.Builders
+CS	./lib/cauterize/builders/cs/enumeration.rb	/^    module CS$/;"	m	class:Cauterize.Builders
+CSArray	./lib/cauterize/builders/cs/csarray.rb	/^  class CSArray < Buildable$/;"	c	class:Cauterize
+CSBuilder	./lib/cauterize/cs_builder.rb	/^  class CSBuilder$/;"	c	class:Cauterize
+Cauterize	./lib/cauterize.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/base_type.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/builders.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/builders/c/buildable.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/builders/c/builtin.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/builders/c/composite.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/builders/c/enumeration.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/builders/c/fixed_array.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/builders/c/group.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/builders/c/scalar.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/builders/c/variable_array.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/builders/cs/buildable.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/builders/cs/builtin.rb	/^module Cauterize::Builders::CS$/;"	m
+Cauterize	./lib/cauterize/builders/cs/composite.rb	/^module Cauterize::Builders::CS$/;"	m
+Cauterize	./lib/cauterize/builders/cs/csarray.rb	/^module Cauterize::Builders::CS$/;"	m
+Cauterize	./lib/cauterize/builders/cs/enumeration.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/builders/cs/fixed_array.rb	/^module Cauterize::Builders::CS$/;"	m
+Cauterize	./lib/cauterize/builders/cs/group.rb	/^module Cauterize::Builders::CS$/;"	m
+Cauterize	./lib/cauterize/builders/cs/scalar.rb	/^module Cauterize::Builders::CS$/;"	m
+Cauterize	./lib/cauterize/builders/cs/variable_array.rb	/^module Cauterize::Builders::CS$/;"	m
+Cauterize	./lib/cauterize/builders/doc/buildable.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/builders/doc/builtin.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/builders/doc/composite.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/builders/doc/enumeration.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/builders/doc/fixed_array.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/builders/doc/group.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/builders/doc/scalar.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/builders/doc/variable_array.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/builders/ruby/buildable.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/builders/ruby/builtin.rb	/^module Cauterize::Builders::Ruby$/;"	m
+Cauterize	./lib/cauterize/builders/ruby/composite.rb	/^module Cauterize::Builders::Ruby$/;"	m
+Cauterize	./lib/cauterize/builders/ruby/enumeration.rb	/^module Cauterize::Builders::Ruby$/;"	m
+Cauterize	./lib/cauterize/builders/ruby/fixed_array.rb	/^module Cauterize::Builders::Ruby$/;"	m
+Cauterize	./lib/cauterize/builders/ruby/group.rb	/^module Cauterize::Builders::Ruby$/;"	m
+Cauterize	./lib/cauterize/builders/ruby/scalar.rb	/^module Cauterize::Builders::Ruby$/;"	m
+Cauterize	./lib/cauterize/builders/ruby/variable_array.rb	/^module Cauterize::Builders::Ruby$/;"	m
+Cauterize	./lib/cauterize/builtin.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/c_builder.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/cauterize.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/composite.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/cs_builder.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/doc_builder.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/enumeration.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/fixed_array.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/group.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/ruby_builder.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/scalar.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/variable_array.rb	/^module Cauterize$/;"	m
+Cauterize	./lib/cauterize/version.rb	/^module Cauterize$/;"	m
+Cauterize	./spec/base_type_spec.rb	/^module Cauterize$/;"	m
+Cauterize	./spec/builders/c/buildable_spec.rb	/^module Cauterize::Builders::C$/;"	m
+Cauterize	./spec/builders/c/builtin_spec.rb	/^module Cauterize$/;"	m
+Cauterize	./spec/builders/c/composite_spec.rb	/^module Cauterize$/;"	m
+Cauterize	./spec/builders/c/enumeration_spec.rb	/^module Cauterize$/;"	m
+Cauterize	./spec/builders/c/group_spec.rb	/^module Cauterize$/;"	m
+Cauterize	./spec/builders/c/scalar_spec.rb	/^module Cauterize$/;"	m
+Cauterize	./spec/builders/c/variable_array_spec.rb	/^module Cauterize$/;"	m
+Cauterize	./spec/builders/cs/composite_spec.rb	/^module Cauterize$/;"	m
+Cauterize	./spec/builders/cs/enumeration_spec.rb	/^module Cauterize$/;"	m
+Cauterize	./spec/builders/cs/group_spec.rb	/^module Cauterize$/;"	m
+Cauterize	./spec/builders/cs/scalar_spec.rb	/^module Cauterize$/;"	m
+Cauterize	./spec/builders/doc/buildable_spec.rb	/^module Cauterize::Builders::Doc$/;"	m
+Cauterize	./spec/builders_spec.rb	/^module Cauterize$/;"	m
+Cauterize	./spec/builtin_spec.rb	/^module Cauterize$/;"	m
+Cauterize	./spec/c_builder_spec.rb	/^module Cauterize$/;"	m
+Cauterize	./spec/composite_spec.rb	/^module Cauterize$/;"	m
+Cauterize	./spec/cs_builder_spec.rb	/^module Cauterize$/;"	m
+Cauterize	./spec/doc_builder_spec.rb	/^module Cauterize$/;"	m
+Cauterize	./spec/enumeration_spec.rb	/^module Cauterize$/;"	m
+Cauterize	./spec/fixed_array_spec.rb	/^module Cauterize$/;"	m
+Cauterize	./spec/group_spec.rb	/^module Cauterize$/;"	m
+Cauterize	./spec/ruby_builder_spec.rb	/^module Cauterize$/;"	m
+Cauterize	./spec/scalar_spec.rb	/^module Cauterize$/;"	m
+Cauterize	./spec/spec_helper.rb	/^module Cauterize$/;"	m
+Cauterize	./spec/support/shared_examples_for_c_buildables.rb	/^module Cauterize$/;"	m
+Cauterize	./spec/support/spec_sample_model.rb	/^module Cauterize$/;"	m
+Cauterize	./spec/variable_array_spec.rb	/^module Cauterize$/;"	m
+Cauterize	./support/cs/src/CauterizeCompositeFormatter.cs	/^namespace Cauterize$/;"	n
+Cauterize	./support/cs/src/CauterizeContainerFormatter.cs	/^namespace Cauterize$/;"	n
+Cauterize	./support/cs/src/CauterizeEnumFormatter.cs	/^namespace Cauterize$/;"	n
+Cauterize	./support/cs/src/CauterizeException.cs	/^namespace Cauterize $/;"	n
+Cauterize	./support/cs/src/CauterizeFixedArrayFormatter.cs	/^namespace Cauterize$/;"	n
+Cauterize	./support/cs/src/CauterizeFormatter.cs	/^namespace Cauterize$/;"	n
+Cauterize	./support/cs/src/CauterizeGroupFormatter.cs	/^namespace Cauterize$/;"	n
+Cauterize	./support/cs/src/CauterizePrimitiveFormatter.cs	/^namespace Cauterize$/;"	n
+Cauterize	./support/cs/src/CauterizeTypeFormatterFactory.cs	/^namespace Cauterize$/;"	n
+Cauterize	./support/cs/src/CauterizeTypes.cs	/^namespace Cauterize$/;"	n
+Cauterize	./support/cs/src/CauterizeVariableArrayFormatter.cs	/^namespace Cauterize$/;"	n
+Cauterize	./support/cs/src/ICauterizeTypeFormatter.cs	/^namespace Cauterize$/;"	n
+Cauterize	./support/cs/src/OrderAttribute.cs	/^namespace Cauterize$/;"	n
+Cauterize	./support/cs/src/PrimitiveSupport.cs	/^namespace Cauterize$/;"	n
+Cauterize	./support/cs/src/SerializedRepresentationAttribute.cs	/^namespace Cauterize$/;"	n
+Cauterize.Test	./support/cs/test/CauterizeCompositeFormatterTest.cs	/^namespace Cauterize.Test$/;"	n
+Cauterize.Test	./support/cs/test/CauterizeEnumFormatterTest.cs	/^namespace Cauterize.Test$/;"	n
+Cauterize.Test	./support/cs/test/CauterizeFixedArrayFormatterTest.cs	/^namespace Cauterize.Test$/;"	n
+Cauterize.Test	./support/cs/test/CauterizeFormatterTest.cs	/^namespace Cauterize.Test$/;"	n
+Cauterize.Test	./support/cs/test/CauterizeGroupFormatterTest.cs	/^namespace Cauterize.Test$/;"	n
+Cauterize.Test	./support/cs/test/CauterizeIntegrationTest.cs	/^namespace Cauterize.Test$/;"	n
+Cauterize.Test	./support/cs/test/CauterizePrimitiveFormatterTest.cs	/^namespace Cauterize.Test$/;"	n
+Cauterize.Test	./support/cs/test/CauterizeTypeFormatterFactoryTest.cs	/^namespace Cauterize.Test$/;"	n
+Cauterize.Test	./support/cs/test/CauterizeVariableArrayFormatterTest.cs	/^namespace Cauterize.Test$/;"	n
+Cauterize.Test	./support/cs/test/OrderAttributeTest.cs	/^namespace Cauterize.Test$/;"	n
+Cauterize.Test	./support/cs/test/SerializedRepresentationAttributeTest.cs	/^namespace Cauterize.Test$/;"	n
+CauterizeAppend	./support/c/src/cauterize.c	/^S CauterizeAppend(T * m, uint8_t * src, uint32_t length)$/;"	f
+CauterizeArray	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^class CauterizeArray < CauterizeData$/;"	c
+CauterizeBuiltin	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^class CauterizeBuiltin < CauterizeData$/;"	c
+CauterizeBuiltinBool	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^class CauterizeBuiltinBool < CauterizeBuiltin$/;"	c
+CauterizeBuiltinFloat	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^class CauterizeBuiltinFloat < CauterizeBuiltin$/;"	c
+CauterizeBuiltinInteger	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^class CauterizeBuiltinInteger < CauterizeBuiltin$/;"	c
+CauterizeComposite	./support/cs/src/CauterizeTypes.cs	/^    public class CauterizeComposite$/;"	c	namespace:Cauterize
+CauterizeComposite	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^class CauterizeComposite < CauterizeData$/;"	c
+CauterizeCompositeFormatter	./support/cs/src/CauterizeCompositeFormatter.cs	/^        public CauterizeCompositeFormatter(CauterizeTypeFormatterFactory factory) : base(factory)$/;"	m	class:Cauterize.CauterizeCompositeFormatter
+CauterizeCompositeFormatter	./support/cs/src/CauterizeCompositeFormatter.cs	/^    public class CauterizeCompositeFormatter : CauterizeContainerFormatter$/;"	c	namespace:Cauterize
+CauterizeCompositeFormatterTest	./support/cs/test/CauterizeCompositeFormatterTest.cs	/^    public class CauterizeCompositeFormatterTest$/;"	c	namespace:Cauterize.Test
+CauterizeContainerFormatter	./support/cs/src/CauterizeContainerFormatter.cs	/^        public CauterizeContainerFormatter(CauterizeTypeFormatterFactory factory)$/;"	m	class:Cauterize.CauterizeContainerFormatter
+CauterizeContainerFormatter	./support/cs/src/CauterizeContainerFormatter.cs	/^    public abstract class CauterizeContainerFormatter : ICauterizeTypeFormatter$/;"	c	namespace:Cauterize
+CauterizeData	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^class CauterizeData$/;"	c
+CauterizeEnumFormatter	./support/cs/src/CauterizeEnumFormatter.cs	/^    public class CauterizeEnumFormatter : ICauterizeTypeFormatter$/;"	c	namespace:Cauterize
+CauterizeEnumFormatterTest	./support/cs/test/CauterizeEnumFormatterTest.cs	/^    public class CauterizeEnumFormatterTest$/;"	c	namespace:Cauterize.Test
+CauterizeEnumTestLarge	./support/cs/test/CauterizeEnumFormatterTest.cs	/^    public enum CauterizeEnumTestLarge$/;"	g	namespace:Cauterize.Test
+CauterizeEnumTestMedium	./support/cs/test/CauterizeEnumFormatterTest.cs	/^    public enum CauterizeEnumTestMedium$/;"	g	namespace:Cauterize.Test
+CauterizeEnumTestSmall	./support/cs/test/CauterizeEnumFormatterTest.cs	/^    public enum CauterizeEnumTestSmall$/;"	g	namespace:Cauterize.Test
+CauterizeEnumeration	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^class CauterizeEnumeration < CauterizeData$/;"	c	class:CauterizeComposite.initialize
+CauterizeException	./support/cs/src/CauterizeException.cs	/^        public CauterizeException(string message) : base(message)$/;"	m	class:Cauterize.CauterizeException
+CauterizeException	./support/cs/src/CauterizeException.cs	/^        public CauterizeException(string message, Exception innerException) : base(message, innerException)$/;"	m	class:Cauterize.CauterizeException
+CauterizeException	./support/cs/src/CauterizeException.cs	/^    public class CauterizeException : Exception$/;"	c	namespace:Cauterize
+CauterizeFixedArray	./support/cs/src/CauterizeTypes.cs	/^    public abstract class CauterizeFixedArray$/;"	c	namespace:Cauterize
+CauterizeFixedArray	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^class CauterizeFixedArray < CauterizeArray$/;"	c
+CauterizeFixedArrayFormatter	./support/cs/src/CauterizeFixedArrayFormatter.cs	/^        public CauterizeFixedArrayFormatter(CauterizeTypeFormatterFactory factory) : base(factory)$/;"	m	class:Cauterize.CauterizeFixedArrayFormatter
+CauterizeFixedArrayFormatter	./support/cs/src/CauterizeFixedArrayFormatter.cs	/^    public class CauterizeFixedArrayFormatter : CauterizeContainerFormatter$/;"	c	namespace:Cauterize
+CauterizeFixedArrayFormatterTest	./support/cs/test/CauterizeFixedArrayFormatterTest.cs	/^    public class CauterizeFixedArrayFormatterTest$/;"	c	namespace:Cauterize.Test
+CauterizeFixedArrayTyped	./support/cs/src/CauterizeTypes.cs	/^    public abstract class CauterizeFixedArrayTyped<T> : CauterizeFixedArray$/;"	c	namespace:Cauterize
+CauterizeFormatter	./support/cs/src/CauterizeFormatter.cs	/^        public CauterizeFormatter() \/\/ only needed for deserialization$/;"	m	class:Cauterize.CauterizeFormatter
+CauterizeFormatter	./support/cs/src/CauterizeFormatter.cs	/^        public CauterizeFormatter(CauterizeTypeFormatterFactory factory)$/;"	m	class:Cauterize.CauterizeFormatter
+CauterizeFormatter	./support/cs/src/CauterizeFormatter.cs	/^    public class CauterizeFormatter$/;"	c	namespace:Cauterize
+CauterizeFormatterTest	./support/cs/test/CauterizeFormatterTest.cs	/^    public class CauterizeFormatterTest$/;"	c	namespace:Cauterize.Test
+CauterizeGroup	./support/cs/src/CauterizeTypes.cs	/^    public class CauterizeGroup$/;"	c	namespace:Cauterize
+CauterizeGroup	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^class CauterizeGroup < CauterizeData$/;"	c	class:CauterizeComposite.initialize
+CauterizeGroupFormatter	./support/cs/src/CauterizeGroupFormatter.cs	/^        public CauterizeGroupFormatter(CauterizeTypeFormatterFactory factory) : base(factory)$/;"	m	class:Cauterize.CauterizeGroupFormatter
+CauterizeGroupFormatter	./support/cs/src/CauterizeGroupFormatter.cs	/^    public class CauterizeGroupFormatter : CauterizeContainerFormatter$/;"	c	namespace:Cauterize
+CauterizeGroupFormatterTest	./support/cs/test/CauterizeGroupFormatterTest.cs	/^    public class CauterizeGroupFormatterTest$/;"	c	namespace:Cauterize.Test
+CauterizeHelpers	./spec/spec_helper.rb	/^  module CauterizeHelpers$/;"	m	class:Cauterize
+CauterizeHelpers	./spec/support/spec_sample_model.rb	/^  module CauterizeHelpers$/;"	m	class:Cauterize
+CauterizeInfo	./support/cs/src/CauterizeTypes.cs	/^    public class CauterizeInfo {$/;"	c	namespace:Cauterize
+CauterizeInitAppend	./support/c/src/cauterize.c	/^S CauterizeInitAppend(T * m, uint8_t * buffer, uint32_t length)$/;"	f
+CauterizeInitRead	./support/c/src/cauterize.c	/^S CauterizeInitRead(T * m, uint8_t * buffer, uint32_t used)$/;"	f
+CauterizeIntegrationTest	./support/cs/test/CauterizeIntegrationTest.cs	/^    public class CauterizeIntegrationTest$/;"	c	namespace:Cauterize.Test
+CauterizePrimitiveFormatter	./support/cs/src/CauterizePrimitiveFormatter.cs	/^    public class CauterizePrimitiveFormatter : ICauterizeTypeFormatter$/;"	c	namespace:Cauterize
+CauterizePrimitiveFormatterTest	./support/cs/test/CauterizePrimitiveFormatterTest.cs	/^    public class CauterizePrimitiveFormatterTest$/;"	c	namespace:Cauterize.Test
+CauterizeRead	./support/c/src/cauterize.c	/^S CauterizeRead(T * m, uint8_t * dst, uint32_t length)$/;"	f
+CauterizeScalar	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^class CauterizeScalar < CauterizeData$/;"	c
+CauterizeTypeFormatterFactory	./support/cs/src/CauterizeTypeFormatterFactory.cs	/^    public class CauterizeTypeFormatterFactory$/;"	c	namespace:Cauterize
+CauterizeTypeFormatterFactoryTest	./support/cs/test/CauterizeTypeFormatterFactoryTest.cs	/^    public class CauterizeTypeFormatterFactoryTest$/;"	c	namespace:Cauterize.Test
+CauterizeVariableArray	./support/cs/src/CauterizeTypes.cs	/^    public abstract class CauterizeVariableArray$/;"	c	namespace:Cauterize
+CauterizeVariableArray	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^class CauterizeVariableArray < CauterizeArray$/;"	c
+CauterizeVariableArrayFormatter	./support/cs/src/CauterizeVariableArrayFormatter.cs	/^        public CauterizeVariableArrayFormatter(CauterizeTypeFormatterFactory factory) : base(factory)$/;"	m	class:Cauterize.CauterizeVariableArrayFormatter
+CauterizeVariableArrayFormatter	./support/cs/src/CauterizeVariableArrayFormatter.cs	/^    public class CauterizeVariableArrayFormatter : CauterizeContainerFormatter $/;"	c	namespace:Cauterize
+CauterizeVariableArrayFormatterTest	./support/cs/test/CauterizeVariableArrayFormatterTest.cs	/^    public class CauterizeVariableArrayFormatterTest$/;"	c	namespace:Cauterize.Test
+CauterizeVariableArrayTyped	./support/cs/src/CauterizeTypes.cs	/^    public abstract class CauterizeVariableArrayTyped<T> : CauterizeVariableArray$/;"	c	namespace:Cauterize
+Cetl01	./support/cs/test/CauterizeEnumFormatterTest.cs	/^        Cetl01 = 0,$/;"	e	enum:Cauterize.Test.CauterizeEnumTestLarge	file:
+Cetl02	./support/cs/test/CauterizeEnumFormatterTest.cs	/^        Cetl02 = 131072$/;"	e	enum:Cauterize.Test.CauterizeEnumTestLarge	file:
+Cetm01	./support/cs/test/CauterizeEnumFormatterTest.cs	/^        Cetm01 = 0,$/;"	e	enum:Cauterize.Test.CauterizeEnumTestMedium	file:
+Cetm02	./support/cs/test/CauterizeEnumFormatterTest.cs	/^        Cetm02 = 512$/;"	e	enum:Cauterize.Test.CauterizeEnumTestMedium	file:
+Cets01	./support/cs/test/CauterizeEnumFormatterTest.cs	/^        Cets01 = 0,$/;"	e	enum:Cauterize.Test.CauterizeEnumTestSmall	file:
+Cets02	./support/cs/test/CauterizeEnumFormatterTest.cs	/^        Cets02 = 2$/;"	e	enum:Cauterize.Test.CauterizeEnumTestSmall	file:
+CompareProps	./support/cs/src/OrderAttribute.cs	/^        private static int CompareProps(PropertyInfo a, PropertyInfo b)$/;"	m	class:Cauterize.OrderAttribute	file:
+Composite	./lib/cauterize/builders/c/composite.rb	/^      class Composite < Buildable$/;"	c	class:Cauterize.Builders.C
+Composite	./lib/cauterize/builders/cs/composite.rb	/^  class Composite < Buildable$/;"	c	class:Cauterize
+Composite	./lib/cauterize/builders/doc/composite.rb	/^      class Composite < Buildable$/;"	c	class:Cauterize.Builders.Doc
+Composite	./lib/cauterize/builders/ruby/composite.rb	/^  class Composite < Buildable$/;"	c	class:Cauterize
+Composite	./lib/cauterize/composite.rb	/^  class Composite < BaseType$/;"	c	class:Cauterize
+CompositeField	./lib/cauterize/composite.rb	/^  class CompositeField$/;"	c	class:Cauterize
+Context	./support/cs/src/CauterizeFormatter.cs	/^        public StreamingContext Context { get; set; }$/;"	p	class:Cauterize.CauterizeFormatter
+Deserialize	./support/cs/src/CauterizeCompositeFormatter.cs	/^        public override object Deserialize(Stream serializationStream, Type t)$/;"	m	class:Cauterize.CauterizeCompositeFormatter
+Deserialize	./support/cs/src/CauterizeContainerFormatter.cs	/^        public abstract object Deserialize(Stream serializationStream, Type t);$/;"	m	class:Cauterize.CauterizeContainerFormatter
+Deserialize	./support/cs/src/CauterizeEnumFormatter.cs	/^        public object Deserialize(Stream serializationStream, Type t)$/;"	m	class:Cauterize.CauterizeEnumFormatter
+Deserialize	./support/cs/src/CauterizeFixedArrayFormatter.cs	/^        public override object Deserialize(Stream serializationStream, Type t)$/;"	m	class:Cauterize.CauterizeFixedArrayFormatter
+Deserialize	./support/cs/src/CauterizeFormatter.cs	/^        public virtual T Deserialize<T>(Stream serializationStream)$/;"	m	class:Cauterize.CauterizeFormatter
+Deserialize	./support/cs/src/CauterizeFormatter.cs	/^        public virtual object Deserialize(Stream serializationStream, Type t)$/;"	m	class:Cauterize.CauterizeFormatter
+Deserialize	./support/cs/src/CauterizeGroupFormatter.cs	/^        public override object Deserialize(Stream serializationStream, Type t)$/;"	m	class:Cauterize.CauterizeGroupFormatter
+Deserialize	./support/cs/src/CauterizePrimitiveFormatter.cs	/^        public object Deserialize(Stream serializationStream, Type t)$/;"	m	class:Cauterize.CauterizePrimitiveFormatter
+Deserialize	./support/cs/src/CauterizeVariableArrayFormatter.cs	/^        public override object Deserialize(Stream serializationStream, Type t)$/;"	m	class:Cauterize.CauterizeVariableArrayFormatter
+Deserialize	./support/cs/src/ICauterizeTypeFormatter.cs	/^        object Deserialize(Stream serializationStream, Type t);$/;"	m	interface:Cauterize.ICauterizeTypeFormatter
+Doc	./lib/cauterize/builders/doc/buildable.rb	/^    module Doc$/;"	m	class:Cauterize.Builders
+Doc	./lib/cauterize/builders/doc/builtin.rb	/^    module Doc$/;"	m	class:Cauterize.Builders
+Doc	./lib/cauterize/builders/doc/composite.rb	/^    module Doc$/;"	m	class:Cauterize.Builders
+Doc	./lib/cauterize/builders/doc/enumeration.rb	/^    module Doc$/;"	m	class:Cauterize.Builders
+Doc	./lib/cauterize/builders/doc/fixed_array.rb	/^    module Doc$/;"	m	class:Cauterize.Builders
+Doc	./lib/cauterize/builders/doc/group.rb	/^    module Doc$/;"	m	class:Cauterize.Builders
+Doc	./lib/cauterize/builders/doc/scalar.rb	/^    module Doc$/;"	m	class:Cauterize.Builders
+Doc	./lib/cauterize/builders/doc/variable_array.rb	/^    module Doc$/;"	m	class:Cauterize.Builders
+DocBuilder	./lib/cauterize/doc_builder.rb	/^  class DocBuilder$/;"	c	class:Cauterize
+DuplicateException	./lib/cauterize/builders.rb	/^    class DuplicateException < Exception; end$/;"	c	class:Cauterize.Builders
+EmptyData	./lib/cauterize.rb	/^  class EmptyData < BinData::Record; end$/;"	c	class:Cauterize
+Enumeration	./lib/cauterize/builders/c/enumeration.rb	/^      class Enumeration < Buildable$/;"	c	class:Cauterize.Builders.C
+Enumeration	./lib/cauterize/builders/cs/enumeration.rb	/^      class Enumeration < Buildable$/;"	c	class:Cauterize.Builders.CS
+Enumeration	./lib/cauterize/builders/doc/enumeration.rb	/^      class Enumeration < Buildable$/;"	c	class:Cauterize.Builders.Doc
+Enumeration	./lib/cauterize/builders/ruby/enumeration.rb	/^  class Enumeration < Buildable$/;"	c	class:Cauterize
+Enumeration	./lib/cauterize/enumeration.rb	/^  class Enumeration < BaseType$/;"	c	class:Cauterize
+EnumerationValue	./lib/cauterize/enumeration.rb	/^  class EnumerationValue$/;"	c	class:Cauterize
+FixedArray	./lib/cauterize/builders/c/fixed_array.rb	/^      class FixedArray < Buildable$/;"	c	class:Cauterize.Builders.C
+FixedArray	./lib/cauterize/builders/cs/fixed_array.rb	/^  class FixedArray < CSArray$/;"	c	class:Cauterize
+FixedArray	./lib/cauterize/builders/doc/fixed_array.rb	/^      class FixedArray < Buildable$/;"	c	class:Cauterize.Builders.Doc
+FixedArray	./lib/cauterize/builders/ruby/fixed_array.rb	/^  class FixedArray < Buildable$/;"	c	class:Cauterize
+FixedArray	./lib/cauterize/fixed_array.rb	/^  class FixedArray < BaseType$/;"	c	class:Cauterize
+Float32	./support/ruby/src/cauterize_ruby_builtins.rb	/^class Float32 < CauterizeBuiltinFloat$/;"	c
+Float64	./support/ruby/src/cauterize_ruby_builtins.rb	/^class Float64 < CauterizeBuiltinFloat$/;"	c
+FloatAttr	./support/cs/test/OrderAttributeTest.cs	/^        public float FloatAttr { get; set; }$/;"	p	class:Cauterize.Test.HasSomeAttrs
+Foo	./support/cs/test/CauterizeGroupFormatterTest.cs	/^        public int Foo { get; set; }$/;"	p	class:Cauterize.Test.TestGroup
+Formatter	./lib/cauterize/formatter.rb	/^class Formatter$/;"	c
+GREATEST_SUITE	./support/c/test/test.c	/^GREATEST_SUITE(marshal) {$/;"	f
+GeneratedDate	./support/cs/src/CauterizeTypes.cs	/^        public string GeneratedDate;$/;"	f	class:Cauterize.CauterizeInfo
+GeneratedVersion	./support/cs/src/CauterizeTypes.cs	/^        public string GeneratedVersion;$/;"	f	class:Cauterize.CauterizeInfo
+GetArray	./support/cs/src/CauterizeTypes.cs	/^        public T[] GetArray()$/;"	m	class:Cauterize.CauterizeFixedArrayTyped
+GetArray	./support/cs/src/CauterizeTypes.cs	/^        public T[] GetArray()$/;"	m	class:Cauterize.CauterizeVariableArrayTyped
+GetFormatter	./support/cs/src/CauterizeTypeFormatterFactory.cs	/^        public virtual ICauterizeTypeFormatter GetFormatter(Type t)$/;"	m	class:Cauterize.CauterizeTypeFormatterFactory
+GetNumBytesForEnum	./support/cs/src/CauterizeEnumFormatter.cs	/^        private int GetNumBytesForEnum(Type t)$/;"	m	class:Cauterize.CauterizeEnumFormatter	file:
+GetPropertyByOrder	./support/cs/src/OrderAttribute.cs	/^        public static PropertyInfo GetPropertyByOrder(Type t, int order)$/;"	m	class:Cauterize.OrderAttribute
+GetRepresentation	./support/cs/src/SerializedRepresentationAttribute.cs	/^        public static Type GetRepresentation(Type t)$/;"	m	class:Cauterize.SerializedRepresentationAttribute
+GetSortedProperties	./support/cs/src/OrderAttribute.cs	/^        public static IEnumerable<PropertyInfo> GetSortedProperties(Type t)$/;"	m	class:Cauterize.OrderAttribute
+Group	./lib/cauterize/builders/c/group.rb	/^      class Group < Buildable$/;"	c	class:Cauterize.Builders.C
+Group	./lib/cauterize/builders/cs/group.rb	/^  class Group < Buildable$/;"	c	class:Cauterize
+Group	./lib/cauterize/builders/doc/group.rb	/^      class Group < Buildable$/;"	c	class:Cauterize.Builders.Doc
+Group	./lib/cauterize/builders/ruby/group.rb	/^  class Group < Buildable$/;"	c	class:Cauterize
+Group	./lib/cauterize/group.rb	/^  class Group < BaseType$/;"	c	class:Cauterize
+GroupField	./lib/cauterize/group.rb	/^  class GroupField$/;"	c	class:Cauterize
+GroupType	./support/cs/test/CauterizeTypeFormatterFactoryTest.cs	/^    enum GroupType$/;"	g	namespace:Cauterize.Test
+GroupTypeInt16	./support/cs/test/CauterizeTypeFormatterFactoryTest.cs	/^        GroupTypeInt16$/;"	e	enum:Cauterize.Test.GroupType	file:
+GroupTypeInt32	./support/cs/test/CauterizeTypeFormatterFactoryTest.cs	/^        GroupTypeInt32,$/;"	e	enum:Cauterize.Test.GroupType	file:
+HasSomeAttrs	./support/cs/test/OrderAttributeTest.cs	/^    public class HasSomeAttrs$/;"	c	namespace:Cauterize.Test
+ICauterizeTypeFormatter	./support/cs/src/ICauterizeTypeFormatter.cs	/^    public interface ICauterizeTypeFormatter$/;"	i	namespace:Cauterize
+Int16	./support/ruby/src/cauterize_ruby_builtins.rb	/^class Int16 < CauterizeBuiltinInteger$/;"	c
+Int32	./support/ruby/src/cauterize_ruby_builtins.rb	/^class Int32 < CauterizeBuiltinInteger$/;"	c
+Int64	./support/ruby/src/cauterize_ruby_builtins.rb	/^class Int64 < CauterizeBuiltinInteger$/;"	c
+Int8	./support/ruby/src/cauterize_ruby_builtins.rb	/^class Int8 < CauterizeBuiltinInteger$/;"	c
+IntAttr	./support/cs/test/OrderAttributeTest.cs	/^        public int IntAttr { get; set; }$/;"	p	class:Cauterize.Test.HasSomeAttrs
+IntToType	./support/cs/src/PrimitiveSupport.cs	/^        static public object IntToType(Type t, int value)$/;"	m	class:Cauterize.PrimitiveSupport
+MaxSize	./support/cs/src/CauterizeTypes.cs	/^        protected abstract int MaxSize { get; }$/;"	p	class:Cauterize.CauterizeVariableArrayTyped
+MaxSize	./support/cs/test/CauterizeIntegrationTest.cs	/^        protected override int MaxSize$/;"	p	class:Cauterize.Test.TestSubVariable
+MaxSize	./support/cs/test/CauterizeVariableArrayFormatterTest.cs	/^        protected override int MaxSize$/;"	p	class:Cauterize.Test.TestVariableArray
+ModelHash	./support/cs/src/CauterizeTypes.cs	/^        public byte[] ModelHash;$/;"	f	class:Cauterize.CauterizeInfo
+ModelHashLength	./support/cs/src/CauterizeTypes.cs	/^        public int ModelHashLength;$/;"	f	class:Cauterize.CauterizeInfo
+MyComposite	./support/cs/test/CauterizeTypeFormatterFactoryTest.cs	/^    class MyComposite : CauterizeComposite$/;"	c	namespace:Cauterize.Test
+MyEnum	./support/cs/test/SerializedRepresentationAttributeTest.cs	/^    public enum MyEnum$/;"	g	namespace:Cauterize.Test
+MyEnum2	./support/cs/test/SerializedRepresentationAttributeTest.cs	/^    public enum MyEnum2$/;"	g	namespace:Cauterize.Test
+MyFixedArray	./support/cs/test/CauterizeTypeFormatterFactoryTest.cs	/^        MyFixedArray()$/;"	m	class:Cauterize.Test.MyFixedArray	file:
+MyFixedArray	./support/cs/test/CauterizeTypeFormatterFactoryTest.cs	/^    class MyFixedArray : CauterizeFixedArray$/;"	c	namespace:Cauterize.Test
+MyGroup	./support/cs/test/CauterizeTypeFormatterFactoryTest.cs	/^    class MyGroup : CauterizeGroup$/;"	c	namespace:Cauterize.Test
+MyInt1	./support/cs/test/CauterizeTypeFormatterFactoryTest.cs	/^        public int MyInt1 { get; set; }$/;"	p	class:Cauterize.Test.MyComposite
+MyInt2	./support/cs/test/CauterizeTypeFormatterFactoryTest.cs	/^        public int MyInt2 { get; set; }$/;"	p	class:Cauterize.Test.MyComposite
+MyIntNormal	./support/cs/test/CauterizeCompositeFormatterTest.cs	/^        public Int32 MyIntNormal { get; set; }$/;"	p	class:Cauterize.Test.TestComposite
+MyIntSmall	./support/cs/test/CauterizeCompositeFormatterTest.cs	/^        public Int16 MyIntSmall { get; set; }$/;"	p	class:Cauterize.Test.TestComposite
+MyVariableArray	./support/cs/test/CauterizeTypeFormatterFactoryTest.cs	/^        MyVariableArray(int size)$/;"	m	class:Cauterize.Test.MyVariableArray	file:
+MyVariableArray	./support/cs/test/CauterizeTypeFormatterFactoryTest.cs	/^    class MyVariableArray : CauterizeVariableArray$/;"	c	namespace:Cauterize.Test
+Name	./support/cs/src/CauterizeTypes.cs	/^        public string Name;$/;"	f	class:Cauterize.CauterizeInfo
+NormalInt	./support/cs/test/CauterizeTypeFormatterFactoryTest.cs	/^        public Int32 NormalInt { get; set; }$/;"	p	class:Cauterize.Test.MyGroup
+Order	./support/cs/src/OrderAttribute.cs	/^        public int Order { get { return _order; } }$/;"	p	class:Cauterize.OrderAttribute
+OrderAttribute	./support/cs/src/OrderAttribute.cs	/^        public OrderAttribute(int order) {_order = order;}$/;"	m	class:Cauterize.OrderAttribute
+OrderAttribute	./support/cs/src/OrderAttribute.cs	/^    public sealed class OrderAttribute : Attribute {$/;"	c	namespace:Cauterize
+OrderAttributeTest	./support/cs/test/OrderAttributeTest.cs	/^    public class OrderAttributeTest$/;"	c	namespace:Cauterize.Test
+PrimitiveSupport	./support/cs/src/PrimitiveSupport.cs	/^    public class PrimitiveSupport$/;"	c	namespace:Cauterize
+RepresentationAttributeTest	./support/cs/test/SerializedRepresentationAttributeTest.cs	/^    public class RepresentationAttributeTest$/;"	c	namespace:Cauterize.Test
+Ruby	./lib/cauterize/builders/ruby/buildable.rb	/^    module Ruby$/;"	m	class:Cauterize.Builders
+RubyBuilder	./lib/cauterize/ruby_builder.rb	/^  class RubyBuilder$/;"	c	class:Cauterize
+S	./support/c/src/cauterize.c	/^#define S /;"	d	file:
+S	./support/c/src/cauterize.c	/^#undef S$/;"	d	file:
+Scalar	./lib/cauterize/builders/c/scalar.rb	/^      class Scalar < Buildable$/;"	c	class:Cauterize.Builders.C
+Scalar	./lib/cauterize/builders/cs/scalar.rb	/^  class Scalar < Buildable$/;"	c	class:Cauterize
+Scalar	./lib/cauterize/builders/doc/scalar.rb	/^      class Scalar < Buildable$/;"	c	class:Cauterize.Builders.Doc
+Scalar	./lib/cauterize/builders/ruby/scalar.rb	/^  class Scalar < Buildable$/;"	c	class:Cauterize
+Scalar	./lib/cauterize/scalar.rb	/^  class Scalar < BaseType$/;"	c	class:Cauterize
+Serialize	./support/cs/src/CauterizeCompositeFormatter.cs	/^        public override void Serialize(Stream serializationStream, object obj)$/;"	m	class:Cauterize.CauterizeCompositeFormatter
+Serialize	./support/cs/src/CauterizeContainerFormatter.cs	/^        public abstract void Serialize(Stream serializationStream, object obj);$/;"	m	class:Cauterize.CauterizeContainerFormatter
+Serialize	./support/cs/src/CauterizeEnumFormatter.cs	/^        public void Serialize(Stream serializationStream, object obj)$/;"	m	class:Cauterize.CauterizeEnumFormatter
+Serialize	./support/cs/src/CauterizeFixedArrayFormatter.cs	/^        public override void Serialize(Stream serializationStream, object obj)$/;"	m	class:Cauterize.CauterizeFixedArrayFormatter
+Serialize	./support/cs/src/CauterizeFormatter.cs	/^        public virtual void Serialize(Stream serializationStream, object obj)$/;"	m	class:Cauterize.CauterizeFormatter
+Serialize	./support/cs/src/CauterizeGroupFormatter.cs	/^        public override void Serialize(Stream serializationStream, object obj)$/;"	m	class:Cauterize.CauterizeGroupFormatter
+Serialize	./support/cs/src/CauterizePrimitiveFormatter.cs	/^        public void Serialize(Stream serializationStream, object obj)$/;"	m	class:Cauterize.CauterizePrimitiveFormatter
+Serialize	./support/cs/src/CauterizeVariableArrayFormatter.cs	/^        public override void Serialize(Stream serializationStream, object obj)$/;"	m	class:Cauterize.CauterizeVariableArrayFormatter
+Serialize	./support/cs/src/ICauterizeTypeFormatter.cs	/^        void Serialize(Stream serializationStream, object obj);$/;"	m	interface:Cauterize.ICauterizeTypeFormatter
+SerializedRepresentationAttribute	./support/cs/src/SerializedRepresentationAttribute.cs	/^        public SerializedRepresentationAttribute(Type type) $/;"	m	class:Cauterize.SerializedRepresentationAttribute
+SerializedRepresentationAttribute	./support/cs/src/SerializedRepresentationAttribute.cs	/^    public sealed class SerializedRepresentationAttribute : Attribute {$/;"	c	namespace:Cauterize
+Size	./support/cs/src/CauterizeTypes.cs	/^        protected abstract int Size { get; }$/;"	p	class:Cauterize.CauterizeFixedArrayTyped
+Size	./support/cs/test/CauterizeFixedArrayFormatterTest.cs	/^        protected override int Size$/;"	p	class:Cauterize.Test.TestFixedArray
+Size	./support/cs/test/CauterizeIntegrationTest.cs	/^        protected override int Size$/;"	p	class:Cauterize.Test.TestSubFixed
+SizeType	./support/cs/test/CauterizeIntegrationTest.cs	/^        public static Type SizeType = typeof (Byte);$/;"	f	class:Cauterize.Test.TestSubVariable
+SizeType	./support/cs/test/CauterizeVariableArrayFormatterTest.cs	/^        public static Type SizeType = typeof (Byte);$/;"	f	class:Cauterize.Test.TestVariableArray
+SmallInt	./support/cs/test/CauterizeTypeFormatterFactoryTest.cs	/^        public Int16 SmallInt { get; set; }$/;"	p	class:Cauterize.Test.MyGroup
+String	./lib/cauterize/snake_case.rb	/^class String$/;"	c
+StringAttr	./support/cs/test/OrderAttributeTest.cs	/^        public string StringAttr { get; set; }$/;"	p	class:Cauterize.Test.HasSomeAttrs
+SubComp	./support/cs/test/CauterizeIntegrationTest.cs	/^        public TestSubComp SubComp { get; set; }$/;"	p	class:Cauterize.Test.TestTopLevel
+SubFixed	./support/cs/test/CauterizeIntegrationTest.cs	/^        public TestSubFixed SubFixed { get; set; }$/;"	p	class:Cauterize.Test.TestTopLevel
+SubGroup	./support/cs/test/CauterizeIntegrationTest.cs	/^        public TestSubGroup SubGroup { get; set; }$/;"	p	class:Cauterize.Test.TestTopLevel
+SubInt	./support/cs/test/CauterizeIntegrationTest.cs	/^        public Int32 SubInt { get; set; } $/;"	p	class:Cauterize.Test.TestTopLevel
+SubShort	./support/cs/test/CauterizeIntegrationTest.cs	/^        public Int16 SubShort { get; set; }$/;"	p	class:Cauterize.Test.TestSubGroup
+SubVar	./support/cs/test/CauterizeIntegrationTest.cs	/^        public TestSubVariable SubVar { get; set; }$/;"	p	class:Cauterize.Test.TestSubGroup
+SurrogateSelector	./support/cs/src/CauterizeFormatter.cs	/^        public ISurrogateSelector SurrogateSelector { get; set; }$/;"	p	class:Cauterize.CauterizeFormatter
+T	./support/c/src/cauterize.c	/^#define T /;"	d	file:
+T	./support/c/src/cauterize.c	/^#undef T$/;"	d	file:
+TestComposite	./support/cs/test/CauterizeCompositeFormatterTest.cs	/^    public class TestComposite : CauterizeComposite$/;"	c	namespace:Cauterize.Test
+TestDeserialize	./support/cs/test/CauterizeCompositeFormatterTest.cs	/^        public void TestDeserialize()$/;"	m	class:Cauterize.Test.CauterizeCompositeFormatterTest
+TestDeserialize	./support/cs/test/CauterizeFixedArrayFormatterTest.cs	/^        public void TestDeserialize()$/;"	m	class:Cauterize.Test.CauterizeFixedArrayFormatterTest
+TestDeserialize	./support/cs/test/CauterizeFormatterTest.cs	/^        public void TestDeserialize()$/;"	m	class:Cauterize.Test.CauterizeFormatterTest
+TestDeserialize	./support/cs/test/CauterizeGroupFormatterTest.cs	/^        public void TestDeserialize()$/;"	m	class:Cauterize.Test.CauterizeGroupFormatterTest
+TestDeserialize	./support/cs/test/CauterizePrimitiveFormatterTest.cs	/^        public void TestDeserialize()$/;"	m	class:Cauterize.Test.CauterizePrimitiveFormatterTest
+TestDeserialize	./support/cs/test/CauterizeVariableArrayFormatterTest.cs	/^        public void TestDeserialize()$/;"	m	class:Cauterize.Test.CauterizeVariableArrayFormatterTest
+TestDeserializeTwoBytesInARow	./support/cs/test/CauterizePrimitiveFormatterTest.cs	/^        public void TestDeserializeTwoBytesInARow()$/;"	m	class:Cauterize.Test.CauterizePrimitiveFormatterTest
+TestDeserialize_Large	./support/cs/test/CauterizeEnumFormatterTest.cs	/^        public void TestDeserialize_Large()$/;"	m	class:Cauterize.Test.CauterizeEnumFormatterTest
+TestDeserialize_Medium	./support/cs/test/CauterizeEnumFormatterTest.cs	/^        public void TestDeserialize_Medium()$/;"	m	class:Cauterize.Test.CauterizeEnumFormatterTest
+TestDeserialize_Small	./support/cs/test/CauterizeEnumFormatterTest.cs	/^        public void TestDeserialize_Small()$/;"	m	class:Cauterize.Test.CauterizeEnumFormatterTest
+TestDeserialized_UnusedGroupData	./support/cs/test/CauterizeGroupFormatterTest.cs	/^        public void TestDeserialized_UnusedGroupData()$/;"	m	class:Cauterize.Test.CauterizeGroupFormatterTest
+TestFixedArray	./support/cs/test/CauterizeFixedArrayFormatterTest.cs	/^        public TestFixedArray()$/;"	m	class:Cauterize.Test.TestFixedArray
+TestFixedArray	./support/cs/test/CauterizeFixedArrayFormatterTest.cs	/^        public TestFixedArray(long[] data)$/;"	m	class:Cauterize.Test.TestFixedArray
+TestFixedArray	./support/cs/test/CauterizeFixedArrayFormatterTest.cs	/^    class TestFixedArray : CauterizeFixedArrayTyped<long>$/;"	c	namespace:Cauterize.Test
+TestGetFormatter	./support/cs/test/CauterizeTypeFormatterFactoryTest.cs	/^        public void TestGetFormatter()$/;"	m	class:Cauterize.Test.CauterizeTypeFormatterFactoryTest
+TestGroup	./support/cs/test/CauterizeGroupFormatterTest.cs	/^    class TestGroup : CauterizeGroup$/;"	c	namespace:Cauterize.Test
+TestGroupType	./support/cs/test/CauterizeGroupFormatterTest.cs	/^    enum TestGroupType$/;"	g	namespace:Cauterize.Test
+TestGroupTypeBar	./support/cs/test/CauterizeGroupFormatterTest.cs	/^        TestGroupTypeBar,$/;"	e	enum:Cauterize.Test.TestGroupType	file:
+TestGroupTypeBaz	./support/cs/test/CauterizeGroupFormatterTest.cs	/^        TestGroupTypeBaz$/;"	e	enum:Cauterize.Test.TestGroupType	file:
+TestGroupTypeFoo	./support/cs/test/CauterizeGroupFormatterTest.cs	/^        TestGroupTypeFoo = 0,$/;"	e	enum:Cauterize.Test.TestGroupType	file:
+TestItAllowsIterationOfAttributesInOrder	./support/cs/test/OrderAttributeTest.cs	/^        public void TestItAllowsIterationOfAttributesInOrder()$/;"	m	class:Cauterize.Test.OrderAttributeTest
+TestItHasARetrievalRepresentationType	./support/cs/test/SerializedRepresentationAttributeTest.cs	/^        public void TestItHasARetrievalRepresentationType()$/;"	m	class:Cauterize.Test.RepresentationAttributeTest
+TestSUbGroupTypeNothing	./support/cs/test/CauterizeIntegrationTest.cs	/^        TestSUbGroupTypeNothing,$/;"	e	enum:Cauterize.Test.TestSubGroupType	file:
+TestSerialize	./support/cs/test/CauterizeCompositeFormatterTest.cs	/^        public void TestSerialize()$/;"	m	class:Cauterize.Test.CauterizeCompositeFormatterTest
+TestSerialize	./support/cs/test/CauterizeFixedArrayFormatterTest.cs	/^        public void TestSerialize()$/;"	m	class:Cauterize.Test.CauterizeFixedArrayFormatterTest
+TestSerialize	./support/cs/test/CauterizeFormatterTest.cs	/^        public void TestSerialize()$/;"	m	class:Cauterize.Test.CauterizeFormatterTest
+TestSerialize	./support/cs/test/CauterizeGroupFormatterTest.cs	/^        public void TestSerialize()$/;"	m	class:Cauterize.Test.CauterizeGroupFormatterTest
+TestSerialize	./support/cs/test/CauterizePrimitiveFormatterTest.cs	/^        public void TestSerialize()$/;"	m	class:Cauterize.Test.CauterizePrimitiveFormatterTest
+TestSerialize	./support/cs/test/CauterizeVariableArrayFormatterTest.cs	/^        public void TestSerialize()$/;"	m	class:Cauterize.Test.CauterizeVariableArrayFormatterTest
+TestSerialize_Large	./support/cs/test/CauterizeEnumFormatterTest.cs	/^        public void TestSerialize_Large()$/;"	m	class:Cauterize.Test.CauterizeEnumFormatterTest
+TestSerialize_Medium	./support/cs/test/CauterizeEnumFormatterTest.cs	/^        public void TestSerialize_Medium()$/;"	m	class:Cauterize.Test.CauterizeEnumFormatterTest
+TestSerialize_Small	./support/cs/test/CauterizeEnumFormatterTest.cs	/^        public void TestSerialize_Small()$/;"	m	class:Cauterize.Test.CauterizeEnumFormatterTest
+TestSerialized_UnusedGroupData	./support/cs/test/CauterizeGroupFormatterTest.cs	/^        public void TestSerialized_UnusedGroupData()$/;"	m	class:Cauterize.Test.CauterizeGroupFormatterTest
+TestSubComp	./support/cs/test/CauterizeIntegrationTest.cs	/^    class TestSubComp : CauterizeComposite$/;"	c	namespace:Cauterize.Test
+TestSubFixed	./support/cs/test/CauterizeIntegrationTest.cs	/^        public TestSubFixed()$/;"	m	class:Cauterize.Test.TestSubFixed
+TestSubFixed	./support/cs/test/CauterizeIntegrationTest.cs	/^        public TestSubFixed(Int64[] data)$/;"	m	class:Cauterize.Test.TestSubFixed
+TestSubFixed	./support/cs/test/CauterizeIntegrationTest.cs	/^    class TestSubFixed : CauterizeFixedArrayTyped<Int64>$/;"	c	namespace:Cauterize.Test
+TestSubGroup	./support/cs/test/CauterizeIntegrationTest.cs	/^    class TestSubGroup : CauterizeGroup$/;"	c	namespace:Cauterize.Test
+TestSubGroupType	./support/cs/test/CauterizeIntegrationTest.cs	/^    public enum TestSubGroupType$/;"	g	namespace:Cauterize.Test
+TestSubGroupTypeShort	./support/cs/test/CauterizeIntegrationTest.cs	/^        TestSubGroupTypeShort$/;"	e	enum:Cauterize.Test.TestSubGroupType	file:
+TestSubGroupTypeVariable	./support/cs/test/CauterizeIntegrationTest.cs	/^        TestSubGroupTypeVariable,$/;"	e	enum:Cauterize.Test.TestSubGroupType	file:
+TestSubVariable	./support/cs/test/CauterizeIntegrationTest.cs	/^        public TestSubVariable(Byte[] data)$/;"	m	class:Cauterize.Test.TestSubVariable
+TestSubVariable	./support/cs/test/CauterizeIntegrationTest.cs	/^        public TestSubVariable(int size)$/;"	m	class:Cauterize.Test.TestSubVariable
+TestSubVariable	./support/cs/test/CauterizeIntegrationTest.cs	/^    class TestSubVariable : CauterizeVariableArrayTyped<Byte>$/;"	c	namespace:Cauterize.Test
+TestThereAndBackAgain	./support/cs/test/CauterizeIntegrationTest.cs	/^        public void TestThereAndBackAgain()$/;"	m	class:Cauterize.Test.CauterizeIntegrationTest
+TestTopLevel	./support/cs/test/CauterizeIntegrationTest.cs	/^    class TestTopLevel : CauterizeComposite$/;"	c	namespace:Cauterize.Test
+TestVariableArray	./support/cs/test/CauterizeVariableArrayFormatterTest.cs	/^        public TestVariableArray(int size)$/;"	m	class:Cauterize.Test.TestVariableArray
+TestVariableArray	./support/cs/test/CauterizeVariableArrayFormatterTest.cs	/^        public TestVariableArray(int[] data)$/;"	m	class:Cauterize.Test.TestVariableArray
+TestVariableArray	./support/cs/test/CauterizeVariableArrayFormatterTest.cs	/^    class TestVariableArray : CauterizeVariableArrayTyped<int>$/;"	c	namespace:Cauterize.Test
+ToString	./support/cs/src/CauterizeTypes.cs	/^        public override string ToString()$/;"	m	class:Cauterize.CauterizeComposite
+ToString	./support/cs/src/CauterizeTypes.cs	/^        public override string ToString()$/;"	m	class:Cauterize.CauterizeFixedArrayTyped
+ToString	./support/cs/src/CauterizeTypes.cs	/^        public override string ToString()$/;"	m	class:Cauterize.CauterizeGroup
+ToString	./support/cs/src/CauterizeTypes.cs	/^        public override string ToString()$/;"	m	class:Cauterize.CauterizeVariableArrayTyped
+Type	./support/cs/src/SerializedRepresentationAttribute.cs	/^        public Type Type { get; private set; }$/;"	p	class:Cauterize.SerializedRepresentationAttribute
+Type	./support/cs/test/CauterizeGroupFormatterTest.cs	/^        public TestGroupType Type { get; set; }$/;"	p	class:Cauterize.Test.TestGroup
+Type	./support/cs/test/CauterizeIntegrationTest.cs	/^        public TestSubGroupType Type { get; set; }$/;"	p	class:Cauterize.Test.TestSubGroup
+Type	./support/cs/test/CauterizeTypeFormatterFactoryTest.cs	/^        public GroupType Type { get; set; }$/;"	p	class:Cauterize.Test.MyGroup
+TypeFromBytes	./support/cs/src/PrimitiveSupport.cs	/^        static public object TypeFromBytes(Type t, byte[] bytes)$/;"	m	class:Cauterize.PrimitiveSupport
+TypeToByteSize	./support/cs/src/PrimitiveSupport.cs	/^        static public int TypeToByteSize(Type t)$/;"	m	class:Cauterize.PrimitiveSupport
+TypeToInt	./support/cs/src/PrimitiveSupport.cs	/^        static public int TypeToInt(object value)$/;"	m	class:Cauterize.PrimitiveSupport
+UInt16	./support/ruby/src/cauterize_ruby_builtins.rb	/^class UInt16 < CauterizeBuiltinInteger$/;"	c
+UInt32	./support/ruby/src/cauterize_ruby_builtins.rb	/^class UInt32 < CauterizeBuiltinInteger$/;"	c
+UInt64	./support/ruby/src/cauterize_ruby_builtins.rb	/^class UInt64 < CauterizeBuiltinInteger$/;"	c
+UInt8	./support/ruby/src/cauterize_ruby_builtins.rb	/^class UInt8 < CauterizeBuiltinInteger$/;"	c
+UnregisteredException	./lib/cauterize/builders.rb	/^    class UnregisteredException < Exception; end$/;"	c	class:Cauterize.Builders
+Value1	./support/cs/test/SerializedRepresentationAttributeTest.cs	/^        Value1 = 1,$/;"	e	enum:Cauterize.Test.MyEnum	file:
+Value2	./support/cs/test/SerializedRepresentationAttributeTest.cs	/^        Value2 = 2,$/;"	e	enum:Cauterize.Test.MyEnum	file:
+Value21	./support/cs/test/SerializedRepresentationAttributeTest.cs	/^        Value21 = 21,$/;"	e	enum:Cauterize.Test.MyEnum2	file:
+Value22	./support/cs/test/SerializedRepresentationAttributeTest.cs	/^        Value22 = 22,$/;"	e	enum:Cauterize.Test.MyEnum2	file:
+Value23	./support/cs/test/SerializedRepresentationAttributeTest.cs	/^        Value23 = 23$/;"	e	enum:Cauterize.Test.MyEnum2	file:
+Value3	./support/cs/test/SerializedRepresentationAttributeTest.cs	/^        Value3 = 3$/;"	e	enum:Cauterize.Test.MyEnum	file:
+VariableArray	./lib/cauterize/builders/c/variable_array.rb	/^      class VariableArray < Buildable$/;"	c	class:Cauterize.Builders.C
+VariableArray	./lib/cauterize/builders/cs/variable_array.rb	/^  class VariableArray < CSArray$/;"	c	class:Cauterize
+VariableArray	./lib/cauterize/builders/doc/variable_array.rb	/^      class VariableArray < Buildable$/;"	c	class:Cauterize.Builders.Doc
+VariableArray	./lib/cauterize/builders/ruby/variable_array.rb	/^  class VariableArray < Buildable$/;"	c	class:Cauterize
+VariableArray	./lib/cauterize/variable_array.rb	/^  class VariableArray < BaseType$/;"	c	class:Cauterize
+X	./spec/base_type_spec.rb	/^          class X < BaseType$/;"	c	class:Cauterize
+X	./spec/builders_spec.rb	/^        class X; def initialize(i); end; end$/;"	c	class:Cauterize
+Y	./spec/builders_spec.rb	/^        class Y; def initialize(i); end; end$/;"	c	class:Cauterize
+Z	./spec/builders_spec.rb	/^        class Z; def initialize(i); end; end$/;"	c	class:Cauterize
+_data	./support/cs/src/CauterizeTypes.cs	/^        private T[] _data;$/;"	f	class:Cauterize.CauterizeFixedArrayTyped	file:
+_data	./support/cs/src/CauterizeTypes.cs	/^        private T[] _data;$/;"	f	class:Cauterize.CauterizeVariableArrayTyped	file:
+_data	./support/cs/test/CauterizeTypeFormatterFactoryTest.cs	/^        private int[] _data;$/;"	f	class:Cauterize.Test.MyFixedArray	file:
+_data	./support/cs/test/CauterizeTypeFormatterFactoryTest.cs	/^        private int[] _data;$/;"	f	class:Cauterize.Test.MyVariableArray	file:
+_formatterFactory	./support/cs/src/CauterizeFormatter.cs	/^        private readonly CauterizeTypeFormatterFactory _formatterFactory;$/;"	f	class:Cauterize.CauterizeFormatter	file:
+_order	./support/cs/src/OrderAttribute.cs	/^        private readonly int _order;$/;"	f	class:Cauterize.OrderAttribute	file:
+_typeFormatterFactory	./support/cs/src/CauterizeContainerFormatter.cs	/^        protected CauterizeTypeFormatterFactory _typeFormatterFactory;$/;"	f	class:Cauterize.CauterizeContainerFormatter
+adds_object_to_hash	./spec/spec_helper.rb	/^    def adds_object_to_hash(fn_sym, hash_inst)$/;"	f	class:Cauterize.CauterizeHelpers
+all_instances	./lib/cauterize/base_type.rb	/^    def self.all_instances; @@instances.values end$/;"	F	class:Cauterize.BaseType
+append	./lib/cauterize/formatter.rb	/^  def append(text)$/;"	f	class:Formatter
+array_size	./lib/cauterize/fixed_array.rb	/^    def array_size(s = nil)$/;"	f	class:Cauterize.FixedArray
+array_size	./lib/cauterize/variable_array.rb	/^    def array_size(s = nil)$/;"	f	class:Cauterize.VariableArray
+array_type	./lib/cauterize/fixed_array.rb	/^    def array_type(t = nil)$/;"	f	class:Cauterize.FixedArray
+array_type	./lib/cauterize/variable_array.rb	/^    def array_type(t = nil)$/;"	f	class:Cauterize.VariableArray
+backdent	./lib/cauterize/formatter.rb	/^  def backdent(line)$/;"	f	class:Formatter
+blank_line	./lib/cauterize/formatter.rb	/^  def blank_line$/;"	f	class:Formatter
+body	./lib/cauterize/builders/doc/builtin.rb	/^        def body$/;"	f	class:Cauterize.Builders.Doc.BuiltIn
+body	./lib/cauterize/builders/doc/composite.rb	/^        def body$/;"	f	class:Cauterize.Builders.Doc.Composite
+body	./lib/cauterize/builders/doc/enumeration.rb	/^        def body$/;"	f	class:Cauterize.Builders.Doc.Enumeration
+body	./lib/cauterize/builders/doc/fixed_array.rb	/^        def body$/;"	f	class:Cauterize.Builders.Doc.FixedArray
+body	./lib/cauterize/builders/doc/group.rb	/^        def body$/;"	f	class:Cauterize.Builders.Doc.Group
+body	./lib/cauterize/builders/doc/scalar.rb	/^        def body$/;"	f	class:Cauterize.Builders.Doc.Scalar
+body	./lib/cauterize/builders/doc/variable_array.rb	/^        def body$/;"	f	class:Cauterize.Builders.Doc.VariableArray
+braces	./lib/cauterize/formatter.rb	/^  def braces$/;"	f	class:Formatter
+build	./lib/cauterize/c_builder.rb	/^    def build$/;"	f	class:Cauterize.CBuilder
+build	./lib/cauterize/cs_builder.rb	/^    def build$/;"	f	class:Cauterize.CSBuilder
+build	./lib/cauterize/doc_builder.rb	/^    def build$/;"	f	class:Cauterize.DocBuilder
+build	./lib/cauterize/ruby_builder.rb	/^    def build$/;"	f	class:Cauterize.RubyBuilder
+build_c	./lib/cauterize/c_builder.rb	/^    def build_c$/;"	f	class:Cauterize
+build_cs	./lib/cauterize/cs_builder.rb	/^    def build_cs$/;"	f	class:Cauterize.CSBuilder
+build_doc	./lib/cauterize/doc_builder.rb	/^    def build_doc$/;"	f	class:Cauterize.DocBuilder
+build_h	./lib/cauterize/c_builder.rb	/^    def build_h$/;"	f	class:Cauterize.CBuilder
+build_rb	./lib/cauterize/ruby_builder.rb	/^    def build_rb$/;"	f	class:Cauterize.RubyBuilder
+builders	./lib/cauterize/builders.rb	/^    def builders$/;"	f	class:Cauterize.Builders
+builtin	./lib/cauterize/builders/ruby/scalar.rb	/^  def self.builtin() #{tn_bldr.render} end$/;"	F	class:Cauterize.Scalar.class_defn
+builtins	./lib/cauterize/builtin.rb	/^  def builtins$/;"	f	class:Cauterize
+byte_length	./lib/cauterize/builtin.rb	/^    def byte_length(len = nil)$/;"	f	class:Cauterize.BuiltIn
+camel	./lib/cauterize/snake_case.rb	/^  def camel$/;"	f	class:String
+can_be_documented	./spec/spec_helper.rb	/^    def can_be_documented(klass)$/;"	f	class:Cauterize.CauterizeHelpers
+class_defn	./lib/cauterize/builders/cs/buildable.rb	/^        def class_defn(formatter); nil end$/;"	f	class:Cauterize.Builders.CS.Buildable
+class_defn	./lib/cauterize/builders/cs/composite.rb	/^    def class_defn(formatter)$/;"	f	class:Cauterize.Composite
+class_defn	./lib/cauterize/builders/cs/csarray.rb	/^    def class_defn(formatter)$/;"	f	class:Cauterize.CSArray
+class_defn	./lib/cauterize/builders/cs/group.rb	/^    def class_defn(formatter)$/;"	f	class:Cauterize.Group
+class_defn	./lib/cauterize/builders/ruby/builtin.rb	/^    def class_defn(f)$/;"	f	class:Cauterize.BuiltIn
+class_defn	./lib/cauterize/builders/ruby/composite.rb	/^    def class_defn(f)$/;"	f	class:Cauterize.Composite
+class_defn	./lib/cauterize/builders/ruby/enumeration.rb	/^    def class_defn(f)$/;"	f	class:Cauterize.Enumeration
+class_defn	./lib/cauterize/builders/ruby/fixed_array.rb	/^    def class_defn(f)$/;"	f	class:Cauterize.FixedArray
+class_defn	./lib/cauterize/builders/ruby/group.rb	/^    def class_defn(f)$/;"	f	class:Cauterize.Group
+class_defn	./lib/cauterize/builders/ruby/scalar.rb	/^    def class_defn(f)$/;"	f	class:Cauterize.Scalar
+class_defn	./lib/cauterize/builders/ruby/variable_array.rb	/^    def class_defn(f)$/;"	f	class:Cauterize.VariableArray
+composite	./lib/cauterize/composite.rb	/^  def composite(name, desc=nil)$/;"	f	class:Cauterize
+composite!	./lib/cauterize/composite.rb	/^  def composite!(name, &blk)$/;"	f	class:Cauterize
+composites	./lib/cauterize/composite.rb	/^  def composites$/;"	f	class:Cauterize
+construct	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def self.construct(x)$/;"	F	class:CauterizeData
+create_builtins	./lib/cauterize/builtin.rb	/^  def create_builtins$/;"	f	class:Cauterize
+creates_a_named_object	./spec/spec_helper.rb	/^    def creates_a_named_object(fn_sym, obj)$/;"	f	class:Cauterize.CauterizeHelpers
+dataless	./lib/cauterize/group.rb	/^    def dataless(name, desc=nil)$/;"	f	class:Cauterize.Group
+declare	./lib/cauterize/builders/c/builtin.rb	/^        def declare(formatter, sym)$/;"	f	class:Cauterize.Builders.C.BuiltIn
+declare	./lib/cauterize/builders/c/composite.rb	/^        def declare(formatter, sym)$/;"	f	class:Cauterize.Builders.C.Composite
+declare	./lib/cauterize/builders/c/enumeration.rb	/^        def declare(formatter, sym)$/;"	f	class:Cauterize.Builders.C.Enumeration
+declare	./lib/cauterize/builders/c/fixed_array.rb	/^        def declare(formatter, sym)$/;"	f	class:Cauterize.Builders.C.FixedArray
+declare	./lib/cauterize/builders/c/group.rb	/^        def declare(formatter, sym)$/;"	f	class:Cauterize.Builders.C.Group
+declare	./lib/cauterize/builders/c/scalar.rb	/^        def declare(formatter, sym)$/;"	f	class:Cauterize.Builders.C.Scalar
+declare	./lib/cauterize/builders/c/variable_array.rb	/^        def declare(formatter, sym)$/;"	f	class:Cauterize.Builders.C.VariableArray
+declare	./lib/cauterize/builders/cs/buildable.rb	/^        def declare(formatter, sym)$/;"	f	class:Cauterize.Builders.CS.Buildable
+default_formatter	./lib/cauterize/formatter.rb	/^def default_formatter$/;"	f
+digest_class	./lib/cauterize/base_type.rb	/^    def self.digest_class$/;"	F	class:Cauterize.BaseType.model_hash
+down_snake	./lib/cauterize/snake_case.rb	/^  def down_snake$/;"	f	class:String
+elem_type	./lib/cauterize/builders/ruby/fixed_array.rb	/^  def self.elem_type() #{array_type_bldr.render} end$/;"	F	class:Cauterize.FixedArray.class_defn.length
+elem_type	./lib/cauterize/builders/ruby/variable_array.rb	/^  def self.elem_type() #{array_type_bldr.render} end$/;"	F	class:Cauterize.VariableArray.class_defn.size_type.max_length
+enum	./lib/cauterize.rb	/^    def enum$/;"	f	class:populate_enum
+enum_defn	./lib/cauterize/builders/c/buildable.rb	/^        def enum_defn(formatter); nil end$/;"	f	class:Cauterize.Builders.C.Buildable.packer_sym.packer_sig.unpacker_sym.unpacker_sig
+enum_defn	./lib/cauterize/builders/c/enumeration.rb	/^        def enum_defn(formatter)$/;"	f	class:Cauterize.Builders.C.Enumeration
+enum_defn	./lib/cauterize/builders/cs/buildable.rb	/^        def enum_defn(formatter); nil end$/;"	f	class:Cauterize.Builders.CS.Buildable
+enum_defn	./lib/cauterize/builders/cs/enumeration.rb	/^        def enum_defn(formatter)$/;"	f	class:Cauterize.Builders.CS.Enumeration
+enum_sym	./lib/cauterize/group.rb	/^    def enum_sym(fname)$/;"	f	class:Cauterize.Group
+enumeration	./lib/cauterize/enumeration.rb	/^  def enumeration(name, desc=nil)$/;"	f	class:Cauterize
+enumeration!	./lib/cauterize/enumeration.rb	/^  def enumeration!(name, desc=nil, &blk)$/;"	f	class:Cauterize
+enumerations	./lib/cauterize/enumeration.rb	/^  def enumerations$/;"	f	class:Cauterize
+example/c_example_support/example_project_config.h	example/c_example_support/example_project_config.h	//;"	f
+example/ruby_ex.rb	example/ruby_ex.rb	//;"	f
+extra_array_declarations	./lib/cauterize/builders/cs/csarray.rb	/^    def extra_array_declarations(formatter)$/;"	f	class:Cauterize.CSArray
+extra_array_declarations	./lib/cauterize/builders/cs/variable_array.rb	/^    def extra_array_declarations(formatter)$/;"	f	class:Cauterize.VariableArray
+field	./lib/cauterize/composite.rb	/^    def field(name, type, desc=nil)$/;"	f	class:Cauterize.Composite
+field	./lib/cauterize/group.rb	/^    def field(name, type, desc=nil)$/;"	f	class:Cauterize.Group
+field_hash	./lib/cauterize/composite.rb	/^    def field_hash(digest)$/;"	f	class:Cauterize.CompositeField
+field_hash	./lib/cauterize/group.rb	/^    def field_hash(digest)$/;"	f	class:Cauterize.GroupField
+find_type	./lib/cauterize/base_type.rb	/^    def self.find_type!(name)$/;"	F	class:Cauterize.BaseType.model_hash
+find_type	./lib/cauterize/base_type.rb	/^    def self.find_type(name)$/;"	F	class:Cauterize.BaseType.model_hash
+fix	./lib/cauterize.rb	/^def fix(s)$/;"	f
+fixed_array	./lib/cauterize/fixed_array.rb	/^  def fixed_array(name, desc=nil)$/;"	f	class:Cauterize
+fixed_array!	./lib/cauterize/fixed_array.rb	/^  def fixed_array!(name, &blk)$/;"	f	class:Cauterize
+fixed_arrays	./lib/cauterize/fixed_array.rb	/^  def fixed_arrays$/;"	f	class:Cauterize
+flavor	./lib/cauterize/builtin.rb	/^    def flavor(f = nil)$/;"	f	class:Cauterize.BuiltIn
+format_no_data_stubs	./lib/cauterize/builders/c/group.rb	/^        def format_no_data_stubs(formatter)$/;"	f	class:Cauterize.Builders.C.Group
+four_space_formatter	./lib/cauterize/formatter.rb	/^def four_space_formatter$/;"	f
+from_int	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def self.from_int(i)$/;"	F	class:CauterizeComposite.initialize.CauterizeEnumeration
+from_tag_field_name	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def self.from_tag_field_name(tag_name)$/;"	F	class:CauterizeComposite.initialize.CauterizeGroup
+gen_a_model	./spec/support/spec_sample_model.rb	/^    def gen_a_model$/;"	f	class:Cauterize.CauterizeHelpers
+gen_b_model	./spec/support/spec_sample_model.rb	/^    def gen_b_model$/;"	f	class:Cauterize.CauterizeHelpers
+gen_test_main	./spec/spec_helper.rb	/^    def gen_test_main(sym_list)$/;"	f	class:Cauterize.CauterizeHelpers
+generate	./lib/cauterize/cauterize.rb	/^  def generate(language, target_dir, desc_file)$/;"	f	class:Cauterize
+get	./lib/cauterize/builders.rb	/^    def get(language, description_instance)$/;"	f	class:Cauterize.Builders
+get_name	./lib/cauterize/cauterize.rb	/^  def get_name$/;"	f	class:Cauterize
+get_version	./lib/cauterize/cauterize.rb	/^  def get_version$/;"	f	class:Cauterize
+group	./lib/cauterize/group.rb	/^  def group(name, desc=nil)$/;"	f	class:Cauterize
+group!	./lib/cauterize/group.rb	/^  def group!(name, &blk)$/;"	f	class:Cauterize
+groups	./lib/cauterize/group.rb	/^  def groups$/;"	f	class:Cauterize
+having_data	./lib/cauterize/builders/c/group.rb	/^        def having_data$/;"	f	class:Cauterize.Builders.C.Group
+heading	./lib/cauterize/builders/doc/builtin.rb	/^        def heading$/;"	f	class:Cauterize.Builders.Doc.BuiltIn
+heading	./lib/cauterize/builders/doc/composite.rb	/^        def heading$/;"	f	class:Cauterize.Builders.Doc.Composite
+heading	./lib/cauterize/builders/doc/enumeration.rb	/^        def heading$/;"	f	class:Cauterize.Builders.Doc.Enumeration
+heading	./lib/cauterize/builders/doc/fixed_array.rb	/^        def heading$/;"	f	class:Cauterize.Builders.Doc.FixedArray
+heading	./lib/cauterize/builders/doc/group.rb	/^        def heading$/;"	f	class:Cauterize.Builders.Doc.Group
+heading	./lib/cauterize/builders/doc/scalar.rb	/^        def heading$/;"	f	class:Cauterize.Builders.Doc.Scalar
+heading	./lib/cauterize/builders/doc/variable_array.rb	/^        def heading$/;"	f	class:Cauterize.Builders.Doc.VariableArray
+in_range	./support/ruby/src/cauterize_ruby_builtins.rb	/^  def in_range(v) (v >= -2**15) && (v < 2**15) end$/;"	f	class:Int16
+in_range	./support/ruby/src/cauterize_ruby_builtins.rb	/^  def in_range(v) (v >= -2**31) && (v < 2**31) end$/;"	f	class:Int32
+in_range	./support/ruby/src/cauterize_ruby_builtins.rb	/^  def in_range(v) (v >= -2**63) && (v < 2**63) end$/;"	f	class:Int64
+in_range	./support/ruby/src/cauterize_ruby_builtins.rb	/^  def in_range(v) (v >= -2**7) && (v < 2**7) end$/;"	f	class:Int8
+in_range	./support/ruby/src/cauterize_ruby_builtins.rb	/^  def in_range(v) true end$/;"	f	class:Bool
+in_range	./support/ruby/src/cauterize_ruby_builtins.rb	/^  def in_range(v) true end$/;"	f	class:Float64
+in_range	./support/ruby/src/cauterize_ruby_builtins.rb	/^  def in_range(v) v > (-3.402823466e38) && v < (3.402823466e38) end$/;"	f	class:Float32
+in_range	./support/ruby/src/cauterize_ruby_builtins.rb	/^  def in_range(v) v >= 0 && v < 2**16 end$/;"	f	class:UInt16
+in_range	./support/ruby/src/cauterize_ruby_builtins.rb	/^  def in_range(v) v >= 0 && v < 2**32 end$/;"	f	class:UInt32
+in_range	./support/ruby/src/cauterize_ruby_builtins.rb	/^  def in_range(v) v >= 0 && v < 2**64 end$/;"	f	class:UInt64
+in_range	./support/ruby/src/cauterize_ruby_builtins.rb	/^  def in_range(v) v >= 0 && v < 2**8 end$/;"	f	class:UInt8
+indent	./lib/cauterize/formatter.rb	/^  def indent(line)$/;"	f	class:Formatter
+indented	./lib/cauterize/formatter.rb	/^  def indented$/;"	f	class:Formatter
+initialize	./lib/cauterize/base_type.rb	/^    def initialize(name, description=nil)$/;"	f	class:Cauterize.BaseType
+initialize	./lib/cauterize/builders/c/buildable.rb	/^        def initialize(blueprint)$/;"	f	class:Cauterize.Builders.C.Buildable
+initialize	./lib/cauterize/builders/c/group.rb	/^        def initialize(blueprint)$/;"	f	class:Cauterize.Builders.C.Group
+initialize	./lib/cauterize/builders/cs/buildable.rb	/^        def initialize(blueprint)$/;"	f	class:Cauterize.Builders.CS.Buildable
+initialize	./lib/cauterize/builders/cs/group.rb	/^    def initialize(blueprint)$/;"	f	class:Cauterize.Group
+initialize	./lib/cauterize/builders/doc/buildable.rb	/^        def initialize(blueprint)$/;"	f	class:Cauterize.Builders.Doc.Buildable
+initialize	./lib/cauterize/builders/ruby/buildable.rb	/^        def initialize(blueprint)$/;"	f	class:Cauterize.Builders.Ruby.Buildable
+initialize	./lib/cauterize/builders/ruby/group.rb	/^    def initialize(blueprint)$/;"	f	class:Cauterize.Group
+initialize	./lib/cauterize/builtin.rb	/^    def initialize(name, desc=nil)$/;"	f	class:Cauterize.BuiltIn
+initialize	./lib/cauterize/c_builder.rb	/^    def initialize(h_file, c_file, name="cauterize")$/;"	f	class:Cauterize.CBuilder
+initialize	./lib/cauterize/composite.rb	/^    def initialize(field_name, type_name, desc=nil)$/;"	f	class:Cauterize.CompositeField
+initialize	./lib/cauterize/composite.rb	/^    def initialize(name, desc=nil)$/;"	f	class:Cauterize.Composite
+initialize	./lib/cauterize/cs_builder.rb	/^    def initialize(cs_file, name="cauterize")$/;"	f	class:Cauterize.CSBuilder
+initialize	./lib/cauterize/doc_builder.rb	/^    def initialize(doc_path, name="cauterize")$/;"	f	class:Cauterize.DocBuilder
+initialize	./lib/cauterize/enumeration.rb	/^    def initialize(name, desc=nil)$/;"	f	class:Cauterize.Enumeration
+initialize	./lib/cauterize/enumeration.rb	/^    def initialize(name, value)$/;"	f	class:Cauterize.EnumerationValue
+initialize	./lib/cauterize/fixed_array.rb	/^    def initialize(name, desc=nil)$/;"	f	class:Cauterize.FixedArray
+initialize	./lib/cauterize/formatter.rb	/^  def initialize(indent_str)$/;"	f	class:Formatter
+initialize	./lib/cauterize/group.rb	/^    def initialize(name, desc=nil)$/;"	f	class:Cauterize.Group
+initialize	./lib/cauterize/group.rb	/^    def initialize(name, type, desc=nil)$/;"	f	class:Cauterize.GroupField
+initialize	./lib/cauterize/ruby_builder.rb	/^    def initialize(rb_file, name="cauterize")$/;"	f	class:Cauterize.RubyBuilder
+initialize	./lib/cauterize/scalar.rb	/^    def initialize(name, desc=nil)$/;"	f	class:Cauterize.Scalar
+initialize	./spec/base_type_spec.rb	/^            def initialize(name); end$/;"	f	class:Cauterize.X
+initialize	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def initialize(elems)$/;"	f	class:CauterizeFixedArray
+initialize	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def initialize(elems)$/;"	f	class:CauterizeVariableArray
+initialize	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def initialize(field_name)$/;"	f	class:CauterizeComposite.initialize.CauterizeEnumeration
+initialize	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def initialize(field_values)$/;"	f	class:CauterizeComposite
+initialize	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def initialize(h)$/;"	f	class:CauterizeComposite.initialize.CauterizeGroup
+initialize	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def initialize(val)$/;"	f	class:CauterizeBuiltin
+initialize	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def initialize(val)$/;"	f	class:CauterizeBuiltinBool
+initialize	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def initialize(val)$/;"	f	class:CauterizeBuiltinFloat
+initialize	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def initialize(val)$/;"	f	class:CauterizeBuiltinInteger
+initialize	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def initialize(val)$/;"	f	class:CauterizeScalar
+intialize	./lib/cauterize/variable_array.rb	/^    def intialize(name, desc=nil)$/;"	f	class:Cauterize.VariableArray
+is_hash_of_created_objs	./spec/spec_helper.rb	/^    def is_hash_of_created_objs(create_fn_sym, hash_inst)$/;"	f	class:Cauterize.CauterizeHelpers
+is_tagged_as	./spec/spec_helper.rb	/^    def is_tagged_as(cls, tag)$/;"	f	class:Cauterize.CauterizeHelpers
+length	./lib/cauterize/builders/ruby/fixed_array.rb	/^  def self.length () #{@blueprint.array_size} end$/;"	F	class:Cauterize.FixedArray.class_defn
+local_hash	./lib/cauterize/base_type.rb	/^    def local_hash(digest)$/;"	f	class:Cauterize.BaseType.model_hash
+local_hash	./lib/cauterize/builtin.rb	/^    def local_hash(digest)$/;"	f	class:Cauterize.BuiltIn
+local_hash	./lib/cauterize/composite.rb	/^    def local_hash(digest)$/;"	f	class:Cauterize.Composite
+local_hash	./lib/cauterize/enumeration.rb	/^    def local_hash(digest)$/;"	f	class:Cauterize.Enumeration
+local_hash	./lib/cauterize/fixed_array.rb	/^    def local_hash(digest)$/;"	f	class:Cauterize.FixedArray
+local_hash	./lib/cauterize/group.rb	/^    def local_hash(digest)$/;"	f	class:Cauterize.Group
+local_hash	./lib/cauterize/scalar.rb	/^    def local_hash(digest)$/;"	f	class:Cauterize.Scalar
+local_hash	./lib/cauterize/variable_array.rb	/^    def local_hash(digest)$/;"	f	class:Cauterize.VariableArray
+main	./example/c_example_support/empty_main.c	/^int main(int argc, char * argv[]) { (void)argc; (void)argv; return 0; }$/;"	f
+main	./spec/test_main.c	/^int main(int argc, char * argv[])$/;"	f
+main	./support/c/test/test.c	/^int main(int argc, char * argv[]) {$/;"	f
+make_builder_c	./lib/cauterize/cauterize.rb	/^  def make_builder_c(target_dir, output_prefix)$/;"	f	class:Cauterize
+make_builder_cs	./lib/cauterize/cauterize.rb	/^  def make_builder_cs(target_dir, output_prefix)$/;"	f	class:Cauterize
+make_builder_doc	./lib/cauterize/cauterize.rb	/^  def make_builder_doc(target_dir, output_prefix)$/;"	f	class:Cauterize
+make_builder_ruby	./lib/cauterize/cauterize.rb	/^  def make_builder_ruby(target_dir, output_prefix)$/;"	f	class:Cauterize
+max_length	./lib/cauterize/builders/ruby/variable_array.rb	/^  def self.max_length () #{@blueprint.array_size} end$/;"	F	class:Cauterize.VariableArray.class_defn.size_type
+method_missing	./lib/cauterize/base_type.rb	/^    def method_missing(sym, *args)$/;"	f	class:Cauterize.BaseType.model_hash
+method_missing	./lib/cauterize/builders/c/buildable.rb	/^        def method_missing(sym, *args)$/;"	f	class:Cauterize.Builders.C.Buildable
+method_missing	./lib/cauterize/builders/cs/buildable.rb	/^        def method_missing(sym, *args)$/;"	f	class:Cauterize.Builders.CS.Buildable
+method_missing	./lib/cauterize/builders/doc/buildable.rb	/^        def method_missing(sym, *args)$/;"	f	class:Cauterize.Builders.Doc.Buildable
+method_missing	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def method_missing(m, *args, &block)$/;"	f	class:CauterizeComposite.initialize.unpackio
+model_hash	./lib/cauterize/base_type.rb	/^    def self.model_hash$/;"	F	class:Cauterize.BaseType
+no_data	./lib/cauterize/builders/c/group.rb	/^        def no_data$/;"	f	class:Cauterize.Builders.C.Group
+operator T[]	./support/cs/src/CauterizeTypes.cs	/^        public static implicit operator T[](CauterizeFixedArrayTyped<T> array)$/;"	m	class:Cauterize.CauterizeFixedArrayTyped
+operator T[]	./support/cs/src/CauterizeTypes.cs	/^        public static implicit operator T[](CauterizeVariableArrayTyped<T> array)$/;"	m	class:Cauterize.CauterizeVariableArrayTyped
+pack	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def pack$/;"	f	class:CauterizeComposite.initialize
+pack	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def pack$/;"	f	class:CauterizeComposite.initialize.CauterizeEnumeration
+pack	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def pack$/;"	f	class:CauterizeComposite.initialize.CauterizeGroup
+pack	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def pack$/;"	f	class:CauterizeFixedArray
+pack	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def pack$/;"	f	class:CauterizeScalar
+pack	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def pack$/;"	f	class:CauterizeVariableArray
+pack	./support/ruby/src/cauterize_ruby_builtins.rb	/^  def pack$/;"	f	class:Bool
+pack	./support/ruby/src/cauterize_ruby_builtins.rb	/^  def pack$/;"	f	class:Float32
+pack	./support/ruby/src/cauterize_ruby_builtins.rb	/^  def pack$/;"	f	class:Float64
+pack	./support/ruby/src/cauterize_ruby_builtins.rb	/^  def pack$/;"	f	class:Int16
+pack	./support/ruby/src/cauterize_ruby_builtins.rb	/^  def pack$/;"	f	class:Int32
+pack	./support/ruby/src/cauterize_ruby_builtins.rb	/^  def pack$/;"	f	class:Int64
+pack	./support/ruby/src/cauterize_ruby_builtins.rb	/^  def pack$/;"	f	class:Int8
+pack	./support/ruby/src/cauterize_ruby_builtins.rb	/^  def pack$/;"	f	class:UInt16
+pack	./support/ruby/src/cauterize_ruby_builtins.rb	/^  def pack$/;"	f	class:UInt32
+pack	./support/ruby/src/cauterize_ruby_builtins.rb	/^  def pack$/;"	f	class:UInt64
+pack	./support/ruby/src/cauterize_ruby_builtins.rb	/^  def pack$/;"	f	class:UInt8
+packer_defn	./lib/cauterize/builders/c/builtin.rb	/^        def packer_defn(formatter)$/;"	f	class:Cauterize.Builders.C.BuiltIn
+packer_defn	./lib/cauterize/builders/c/composite.rb	/^        def packer_defn(formatter)$/;"	f	class:Cauterize.Builders.C.Composite
+packer_defn	./lib/cauterize/builders/c/enumeration.rb	/^        def packer_defn(formatter)$/;"	f	class:Cauterize.Builders.C.Enumeration
+packer_defn	./lib/cauterize/builders/c/fixed_array.rb	/^        def packer_defn(formatter)$/;"	f	class:Cauterize.Builders.C.FixedArray
+packer_defn	./lib/cauterize/builders/c/group.rb	/^        def packer_defn(formatter)$/;"	f	class:Cauterize.Builders.C.Group
+packer_defn	./lib/cauterize/builders/c/scalar.rb	/^        def packer_defn(formatter)$/;"	f	class:Cauterize.Builders.C.Scalar
+packer_defn	./lib/cauterize/builders/c/variable_array.rb	/^        def packer_defn(formatter)$/;"	f	class:Cauterize.Builders.C.VariableArray
+packer_proto	./lib/cauterize/builders/c/buildable.rb	/^        def packer_proto(formatter)$/;"	f	class:Cauterize.Builders.C.Buildable.packer_sym.packer_sig
+packer_sig	./lib/cauterize/builders/c/buildable.rb	/^        def packer_sig; "CAUTERIZE_STATUS_T #{packer_sym}(struct Cauterize * dst, #{render} * src)" end$/;"	f	class:Cauterize.Builders.C.Buildable.packer_sym
+packer_sym	./lib/cauterize/builders/c/buildable.rb	/^        def packer_sym; "Pack_#{@blueprint.name}" end$/;"	f	class:Cauterize.Builders.C.Buildable
+parse_dsl	./lib/cauterize/cauterize.rb	/^  def parse_dsl(desc_file)$/;"	f	class:Cauterize
+populate	./lib/cauterize.rb	/^  def self.populate(desc_file)$/;"	F	class:Cauterize
+populate_composite	./lib/cauterize.rb	/^def populate_composite(klass, inst)$/;"	f
+populate_enum	./lib/cauterize.rb	/^def populate_enum(klass, inst)$/;"	f
+populate_fixed_array	./lib/cauterize.rb	/^def populate_fixed_array(klass, inst)$/;"	f
+populate_group	./lib/cauterize.rb	/^def populate_group(klass, inst)$/;"	f
+populate_scalar	./lib/cauterize.rb	/^def populate_scalar(klass, inst)$/;"	f
+populate_variable_array	./lib/cauterize.rb	/^def populate_variable_array(klass, inst)$/;"	f
+raises_exception_with_identical_name	./spec/spec_helper.rb	/^    def raises_exception_with_identical_name(fn_sym)$/;"	f	class:Cauterize.CauterizeHelpers
+register	./lib/cauterize/builders.rb	/^    def register(language, description_class, builder_class)$/;"	f	class:Cauterize.Builders
+register_instance	./lib/cauterize/base_type.rb	/^    def register_instance(inst)$/;"	f	class:Cauterize.BaseType.model_hash
+render	./lib/cauterize/builders/c/builtin.rb	/^        def render$/;"	f	class:Cauterize.Builders.C.BuiltIn
+render	./lib/cauterize/builders/c/composite.rb	/^        def render$/;"	f	class:Cauterize.Builders.C.Composite
+render	./lib/cauterize/builders/c/enumeration.rb	/^        def render$/;"	f	class:Cauterize.Builders.C.Enumeration
+render	./lib/cauterize/builders/c/fixed_array.rb	/^        def render$/;"	f	class:Cauterize.Builders.C.FixedArray
+render	./lib/cauterize/builders/c/group.rb	/^        def render$/;"	f	class:Cauterize.Builders.C.Group
+render	./lib/cauterize/builders/c/scalar.rb	/^        def render$/;"	f	class:Cauterize.Builders.C.Scalar
+render	./lib/cauterize/builders/c/variable_array.rb	/^        def render$/;"	f	class:Cauterize.Builders.C.VariableArray
+render	./lib/cauterize/builders/cs/buildable.rb	/^        def render$/;"	f	class:Cauterize.Builders.CS.Buildable
+render	./lib/cauterize/builders/cs/builtin.rb	/^    def render$/;"	f	class:Cauterize.BuiltIn
+render	./lib/cauterize/builders/cs/scalar.rb	/^    def render$/;"	f	class:Cauterize.Scalar
+render	./lib/cauterize/builders/ruby/builtin.rb	/^    def render$/;"	f	class:Cauterize.BuiltIn
+render	./lib/cauterize/builders/ruby/composite.rb	/^    def render$/;"	f	class:Cauterize.Composite
+render	./lib/cauterize/builders/ruby/enumeration.rb	/^    def render$/;"	f	class:Cauterize.Enumeration
+render	./lib/cauterize/builders/ruby/fixed_array.rb	/^    def render$/;"	f	class:Cauterize.FixedArray
+render	./lib/cauterize/builders/ruby/group.rb	/^    def render$/;"	f	class:Cauterize.Group
+render	./lib/cauterize/builders/ruby/scalar.rb	/^    def render$/;"	f	class:Cauterize.Scalar
+render	./lib/cauterize/builders/ruby/variable_array.rb	/^    def render$/;"	f	class:Cauterize.VariableArray
+render_cstype	./lib/cauterize/builders/cs/builtin.rb	/^    def render_cstype$/;"	f	class:Cauterize.BuiltIn
+render_ctype	./lib/cauterize/builders/c/builtin.rb	/^        def render_ctype$/;"	f	class:Cauterize.Builders.C.BuiltIn
+render_parent	./lib/cauterize/builders/cs/composite.rb	/^    def render_parent$/;"	f	class:Cauterize.Composite
+render_parent	./lib/cauterize/builders/cs/fixed_array.rb	/^    def render_parent$/;"	f	class:Cauterize.FixedArray
+render_parent	./lib/cauterize/builders/cs/group.rb	/^    def render_parent$/;"	f	class:Cauterize.Group
+render_parent	./lib/cauterize/builders/cs/variable_array.rb	/^    def render_parent$/;"	f	class:Cauterize.VariableArray
+render_rbtype	./lib/cauterize/builders/ruby/builtin.rb	/^    def render_rbtype$/;"	f	class:Cauterize.BuiltIn
+representation	./lib/cauterize/enumeration.rb	/^    def representation$/;"	f	class:Cauterize.Enumeration
+reset_for_test	./spec/spec_helper.rb	/^    def reset_for_test$/;"	f	class:Cauterize.CauterizeHelpers
+retrieves_obj_with_identical_name	./spec/spec_helper.rb	/^    def retrieves_obj_with_identical_name(fn_sym)$/;"	f	class:Cauterize.CauterizeHelpers
+scalar	./lib/cauterize/scalar.rb	/^  def scalar(name, desc=nil)$/;"	f	class:Cauterize
+scalar!	./lib/cauterize/scalar.rb	/^  def scalar!(name, &blk)$/;"	f	class:Cauterize
+scalars	./lib/cauterize/scalar.rb	/^  def scalars$/;"	f	class:Cauterize
+set_name	./lib/cauterize/cauterize.rb	/^  def set_name(desc_name)$/;"	f	class:Cauterize
+set_version	./lib/cauterize/cauterize.rb	/^  def set_version(version)$/;"	f	class:Cauterize
+simple_constructor_line	./lib/cauterize/builders/cs/fixed_array.rb	/^    def simple_constructor_line$/;"	f	class:Cauterize.FixedArray
+simple_constructor_line	./lib/cauterize/builders/cs/variable_array.rb	/^    def simple_constructor_line$/;"	f	class:Cauterize.VariableArray
+size	./lib/cauterize/builders/cs/fixed_array.rb	/^    def size$/;"	f	class:Cauterize.FixedArray
+size	./lib/cauterize/builders/cs/variable_array.rb	/^    def size$/;"	f	class:Cauterize.VariableArray
+size_defn	./lib/cauterize/builders/cs/fixed_array.rb	/^    def size_defn(formatter)$/;"	f	class:Cauterize.FixedArray
+size_defn	./lib/cauterize/builders/cs/variable_array.rb	/^    def size_defn(formatter)$/;"	f	class:Cauterize.VariableArray
+size_type	./lib/cauterize/builders/cs/variable_array.rb	/^    def size_type$/;"	f	class:Cauterize.VariableArray
+size_type	./lib/cauterize/builders/ruby/variable_array.rb	/^  def self.size_type () #{size_type_bldr.render} end$/;"	F	class:Cauterize.VariableArray.class_defn
+size_type	./lib/cauterize/variable_array.rb	/^    def size_type(t = nil)$/;"	f	class:Cauterize.VariableArray
+snake	./lib/cauterize/snake_case.rb	/^  def snake$/;"	f	class:String
+spec/builders/c/fixed_array_spec.rb	spec/builders/c/fixed_array_spec.rb	//;"	f
+spec/builders/cs/buildable_spec.rb	spec/builders/cs/buildable_spec.rb	//;"	f
+spec/builders/cs/fixed_array_spec.rb	spec/builders/cs/fixed_array_spec.rb	//;"	f
+spec/builders/cs/variable_array_spec.rb	spec/builders/cs/variable_array_spec.rb	//;"	f
+spec/cauterize_spec.rb	spec/cauterize_spec.rb	//;"	f
+spec/support/shared_examples_for_array_buildables.rb	spec/support/shared_examples_for_array_buildables.rb	//;"	f
+spec/support/shared_examples_for_sane_c_buildables.rb	spec/support/shared_examples_for_sane_c_buildables.rb	//;"	f
+spec/support/shared_examples_for_stubbed_functions.rb	spec/support/shared_examples_for_stubbed_functions.rb	//;"	f
+spec_Pack_uint8_buffer	./example/c_example_support/example_project_config.c	/^CAUTERIZE_STATUS_T spec_Pack_uint8_buffer(struct Cauterize * dst, struct uint8_buffer * src)$/;"	f
+struct_defn	./lib/cauterize/builders/c/buildable.rb	/^        def struct_defn(formatter); nil end$/;"	f	class:Cauterize.Builders.C.Buildable.packer_sym.packer_sig.unpacker_sym.unpacker_sig
+struct_defn	./lib/cauterize/builders/c/composite.rb	/^        def struct_defn(formatter)$/;"	f	class:Cauterize.Builders.C.Composite
+struct_defn	./lib/cauterize/builders/c/fixed_array.rb	/^        def struct_defn(formatter)$/;"	f	class:Cauterize.Builders.C.FixedArray
+struct_defn	./lib/cauterize/builders/c/group.rb	/^        def struct_defn(formatter)$/;"	f	class:Cauterize.Builders.C.Group
+struct_defn	./lib/cauterize/builders/c/variable_array.rb	/^        def struct_defn(formatter)$/;"	f	class:Cauterize.Builders.C.VariableArray
+struct_proto	./lib/cauterize/builders/c/buildable.rb	/^        def struct_proto(formatter); nil end$/;"	f	class:Cauterize.Builders.C.Buildable.packer_sym.packer_sig.unpacker_sym.unpacker_sig
+struct_proto	./lib/cauterize/builders/c/composite.rb	/^        def struct_proto(formatter)$/;"	f	class:Cauterize.Builders.C.Composite
+struct_proto	./lib/cauterize/builders/c/fixed_array.rb	/^        def struct_proto(formatter)$/;"	f	class:Cauterize.Builders.C.FixedArray
+struct_proto	./lib/cauterize/builders/c/group.rb	/^        def struct_proto(formatter)$/;"	f	class:Cauterize.Builders.C.Group
+struct_proto	./lib/cauterize/builders/c/variable_array.rb	/^        def struct_proto(formatter)$/;"	f	class:Cauterize.Builders.C.VariableArray
+support/c/src/cauterize.h	support/c/src/cauterize.h	//;"	f
+support/c/src/cauterize_debug.h	support/c/src/cauterize_debug.h	//;"	f
+support/c/src/cauterize_util.h	support/c/src/cauterize_util.h	//;"	f
+support/c/test/greatest.h	support/c/test/greatest.h	//;"	f
+t_CauterizeAppend_checks_space_needs	./support/c/test/test.c	/^TEST t_CauterizeAppend_checks_space_needs() {$/;"	f
+t_CauterizeAppend_works	./support/c/test/test.c	/^TEST t_CauterizeAppend_works() {$/;"	f
+t_CauterizeAppend_works_again	./support/c/test/test.c	/^TEST t_CauterizeAppend_works_again() {$/;"	f
+t_CauterizeInitAppend_works	./support/c/test/test.c	/^TEST t_CauterizeInitAppend_works() {$/;"	f
+t_CauterizeInitRead_works	./support/c/test/test.c	/^TEST t_CauterizeInitRead_works() {$/;"	f
+t_CauterizeRead_checks_data_needs	./support/c/test/test.c	/^TEST t_CauterizeRead_checks_data_needs() {$/;"	f
+t_CauterizeRead_works	./support/c/test/test.c	/^TEST t_CauterizeRead_works() {$/;"	f
+t_CauterizeRead_works_again	./support/c/test/test.c	/^TEST t_CauterizeRead_works_again() {$/;"	f
+tag_field_name	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def tag_field_name$/;"	f	class:CauterizeComposite.initialize.CauterizeGroup
+tag_from_field_name	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def self.tag_from_field_name(field_name)$/;"	F	class:CauterizeComposite.initialize.CauterizeGroup
+to_f	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def to_f$/;"	f	class:CauterizeBuiltinFloat
+to_i	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def to_i$/;"	f	class:CauterizeBuiltinInteger
+to_i	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def to_i() self.class.fields[@field_name] end$/;"	f	class:CauterizeComposite.initialize.CauterizeEnumeration
+to_ruby	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def to_ruby$/;"	f	class:CauterizeArray
+to_ruby	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def to_ruby$/;"	f	class:CauterizeBuiltin
+to_ruby	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def to_ruby$/;"	f	class:CauterizeComposite.initialize
+to_ruby	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def to_ruby$/;"	f	class:CauterizeComposite.initialize.CauterizeEnumeration
+to_ruby	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def to_ruby$/;"	f	class:CauterizeComposite.initialize.CauterizeGroup
+to_ruby	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def to_ruby$/;"	f	class:CauterizeScalar
+to_s	./lib/cauterize/formatter.rb	/^  def to_s(extra_indent = 0)$/;"	f	class:Formatter
+to_string	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def to_string$/;"	f	class:CauterizeArray
+ty_bldr	./lib/cauterize/builders/c/fixed_array.rb	/^        def ty_bldr$/;"	f	class:Cauterize.Builders.C.FixedArray
+ty_bldr	./lib/cauterize/builders/cs/csarray.rb	/^    def ty_bldr$/;"	f	class:Cauterize.CSArray
+type_hash	./lib/cauterize/base_type.rb	/^    def type_hash(digest = nil)$/;"	f	class:Cauterize.BaseType
+type_name	./lib/cauterize/scalar.rb	/^    def type_name(type_name = nil)$/;"	f	class:Cauterize.Scalar
+typedef_decl	./lib/cauterize/builders/c/buildable.rb	/^        def typedef_decl(formatter); nil end$/;"	f	class:Cauterize.Builders.C.Buildable.packer_sym.packer_sig.unpacker_sym.unpacker_sig
+typedef_decl	./lib/cauterize/builders/c/scalar.rb	/^        def typedef_decl(formatter)$/;"	f	class:Cauterize.Builders.C.Scalar
+unpack	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def self.unpack(x)$/;"	F	class:CauterizeData
+unpacker_defn	./lib/cauterize/builders/c/builtin.rb	/^        def unpacker_defn(formatter)$/;"	f	class:Cauterize.Builders.C.BuiltIn
+unpacker_defn	./lib/cauterize/builders/c/composite.rb	/^        def unpacker_defn(formatter)$/;"	f	class:Cauterize.Builders.C.Composite
+unpacker_defn	./lib/cauterize/builders/c/enumeration.rb	/^        def unpacker_defn(formatter)$/;"	f	class:Cauterize.Builders.C.Enumeration
+unpacker_defn	./lib/cauterize/builders/c/fixed_array.rb	/^        def unpacker_defn(formatter)$/;"	f	class:Cauterize.Builders.C.FixedArray
+unpacker_defn	./lib/cauterize/builders/c/group.rb	/^        def unpacker_defn(formatter)$/;"	f	class:Cauterize.Builders.C.Group
+unpacker_defn	./lib/cauterize/builders/c/scalar.rb	/^        def unpacker_defn(formatter)$/;"	f	class:Cauterize.Builders.C.Scalar
+unpacker_defn	./lib/cauterize/builders/c/variable_array.rb	/^        def unpacker_defn(formatter)$/;"	f	class:Cauterize.Builders.C.VariableArray
+unpacker_proto	./lib/cauterize/builders/c/buildable.rb	/^        def unpacker_proto(formatter)$/;"	f	class:Cauterize.Builders.C.Buildable.packer_sym.packer_sig.unpacker_sym.unpacker_sig
+unpacker_sig	./lib/cauterize/builders/c/buildable.rb	/^        def unpacker_sig; "CAUTERIZE_STATUS_T #{unpacker_sym}(struct Cauterize * src, #{render} * dst)" end$/;"	f	class:Cauterize.Builders.C.Buildable.packer_sym.packer_sig.unpacker_sym
+unpacker_sym	./lib/cauterize/builders/c/buildable.rb	/^        def unpacker_sym; "Unpack_#{@blueprint.name}" end$/;"	f	class:Cauterize.Builders.C.Buildable.packer_sym.packer_sig
+unpackio	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def self.unpackio(str)$/;"	F	class:CauterizeComposite.initialize
+unpackio	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def self.unpackio(str)$/;"	F	class:CauterizeComposite.initialize.CauterizeEnumeration
+unpackio	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def self.unpackio(str)$/;"	F	class:CauterizeComposite.initialize.CauterizeGroup
+unpackio	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def self.unpackio(str)$/;"	F	class:CauterizeFixedArray
+unpackio	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def self.unpackio(str)$/;"	F	class:CauterizeScalar
+unpackio	./support/ruby/src/cauterize_ruby_baseclasses.rb	/^  def self.unpackio(str)$/;"	F	class:CauterizeVariableArray
+unpackio	./support/ruby/src/cauterize_ruby_builtins.rb	/^  def self.unpackio(str)$/;"	F	class:Bool
+unpackio	./support/ruby/src/cauterize_ruby_builtins.rb	/^  def self.unpackio(str)$/;"	F	class:Float32
+unpackio	./support/ruby/src/cauterize_ruby_builtins.rb	/^  def self.unpackio(str)$/;"	F	class:Float64
+unpackio	./support/ruby/src/cauterize_ruby_builtins.rb	/^  def self.unpackio(str)$/;"	F	class:Int16
+unpackio	./support/ruby/src/cauterize_ruby_builtins.rb	/^  def self.unpackio(str)$/;"	F	class:Int32
+unpackio	./support/ruby/src/cauterize_ruby_builtins.rb	/^  def self.unpackio(str)$/;"	F	class:Int64
+unpackio	./support/ruby/src/cauterize_ruby_builtins.rb	/^  def self.unpackio(str)$/;"	F	class:Int8
+unpackio	./support/ruby/src/cauterize_ruby_builtins.rb	/^  def self.unpackio(str)$/;"	F	class:UInt16
+unpackio	./support/ruby/src/cauterize_ruby_builtins.rb	/^  def self.unpackio(str)$/;"	F	class:UInt32
+unpackio	./support/ruby/src/cauterize_ruby_builtins.rb	/^  def self.unpackio(str)$/;"	F	class:UInt64
+unpackio	./support/ruby/src/cauterize_ruby_builtins.rb	/^  def self.unpackio(str)$/;"	F	class:UInt8
+up_snake	./lib/cauterize/snake_case.rb	/^  def up_snake$/;"	f	class:String
+value	./lib/cauterize/enumeration.rb	/^    def value(name, id=nil)$/;"	f	class:Cauterize.Enumeration
+value_hash	./lib/cauterize/enumeration.rb	/^    def value_hash(digest)$/;"	f	class:Cauterize.EnumerationValue
+value_id	./lib/cauterize/enumeration.rb	/^    def value_id(next_id=nil)$/;"	f	class:Cauterize.Enumeration
+variable_array	./lib/cauterize/variable_array.rb	/^  def variable_array(name, desc=nil)$/;"	f	class:Cauterize
+variable_array!	./lib/cauterize/variable_array.rb	/^  def variable_array!(name, &blk)$/;"	f	class:Cauterize
+variable_arrays	./lib/cauterize/variable_array.rb	/^  def variable_arrays$/;"	f	class:Cauterize
+wrapped_packer_defn	./lib/cauterize/builders/c/buildable.rb	/^        def wrapped_packer_defn(formatter)$/;"	f	class:Cauterize.Builders.C.Buildable
+wrapped_unpacker_defn	./lib/cauterize/builders/c/buildable.rb	/^        def wrapped_unpacker_defn(formatter)$/;"	f	class:Cauterize.Builders.C.Buildable
+yields_the_object	./spec/spec_helper.rb	/^    def yields_the_object(fn_sym)$/;"	f	class:Cauterize.CauterizeHelpers
