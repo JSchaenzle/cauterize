@@ -59,7 +59,6 @@ module Cauterize
 
             formatter.backdent "default:"
             formatter << "return CA_ERR_INVALID_TYPE_TAG;"
-            formatter << "break;"
           end
           formatter << "return CA_OK;"
         end
