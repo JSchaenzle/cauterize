@@ -20,15 +20,25 @@ module Cauterize
 
         def packer_defn(formatter)
           formatter << "CAUTERIZE_STATUS_T err;"
+          if @blueprint.needs_checksum
+            formatter << "uint32_t start;"
+            formatter << "if (CA_OK != (err = CauterizeStartChecksum(dst, &start))) { return err; }"
+          end
           @blueprint.fields.values.each do |field|
             p_sym = Builders.get(:c, field.type).packer_sym
             formatter << "if (CA_OK != (err = #{p_sym}(dst, &src->#{field.name}))) { return err; }"
+          end
+          if @blueprint.needs_checksum
+            formatter << "if (CA_OK != (err = CauterizeWriteChecksum(dst, start))) { return err; }"
           end
           formatter << "return CA_OK;"
         end
 
         def unpacker_defn(formatter)
           formatter << "CAUTERIZE_STATUS_T err;"
+          if @blueprint.needs_checksum
+            formatter << "if (CA_OK != (err = CauterizeVerifyChecksum(src))) { return err; }"
+          end
           @blueprint.fields.values.each do |field|
             u_sym = Builders.get(:c, field.type).unpacker_sym
             formatter << "if (CA_OK != (err = #{u_sym}(src, &dst->#{field.name}))) { return err; }"

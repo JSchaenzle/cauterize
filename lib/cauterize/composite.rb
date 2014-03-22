@@ -39,10 +39,12 @@ module Cauterize
 
   class Composite < BaseType
     attr_reader :fields
+    attr_reader :needs_checksum
 
     def initialize(name, desc=nil)
       super
       @fields = {}
+      @needs_checksum = false
     end
 
     def field(name, type, desc=nil)
@@ -51,6 +53,10 @@ module Cauterize
       else
         @fields[name] = CompositeField.new(name, type, desc)
       end
+    end
+
+    def checksum()
+      @needs_checksum = true
     end
 
     protected

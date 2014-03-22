@@ -57,6 +57,7 @@ module Cauterize
         end
 
         Cauterize.composite(:dog) do |c|
+          c.checksum
           c.field :name, :name
           c.field :gender, :gender
           c.field :leg_count, :small_uint
@@ -140,6 +141,28 @@ module Cauterize
 
         it "uses the fixed array length preprocessor define" do
           @c_text.should match /FIXED_ARRAY_LENGTH_mac_address/
+        end
+
+        it "does not compute checksum on persons" do
+          @c_text.match(/Unpack_person.*?return CA_OK/m) { |code|
+            code[0].should match /first_name/
+            code[0].should_not match /Checksum/
+          }
+          @c_text.match(/Pack_person.*?return CA_OK/m) { |code|
+            code[0].should match /first_name/
+            code[0].should_not match /Checksum/
+          }
+        end
+
+        it "computes the checksum on dogs" do
+          @c_text.match(/Pack_dog.*?return CA_OK/m) { |code|
+            code[0].should match /leg_count/
+            code[0].should match /Checksum/
+          }
+          @c_text.match(/Unpack_dog.*?return CA_OK/m) { |code|
+            code[0].should match /leg_count/
+            code[0].should match /Checksum/
+          }
         end
       end
 
