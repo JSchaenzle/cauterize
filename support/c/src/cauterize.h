@@ -19,6 +19,7 @@ typedef enum cauterize_status {
   CA_ERR_INVALID_LENGTH = 4,
   CA_ERR_INVALID_TYPE_TAG = 5,
   CA_ERR_INVALID_ENUM_VAL = 6,
+  CA_ERR_INVALID_CHECKSUM = 7,
   CA_ERR_GENERAL = INT32_MAX,
 } CAUTERIZE_STATUS_T;
 
@@ -52,6 +53,21 @@ CAUTERIZE_STATUS_T CauterizeRead(
     struct Cauterize * m,
     uint8_t * dst,
     uint32_t length);
+
+CAUTERIZE_STATUS_T CauterizeStartChecksum(
+    struct Cauterize * m,
+    uint32_t * start);
+
+CAUTERIZE_STATUS_T CauterizeWriteChecksum(
+    struct Cauterize * m,
+    uint32_t start);
+
+CAUTERIZE_STATUS_T CauterizeVerifyChecksum(
+    struct Cauterize * m);
+
+uint16_t CauterizeChecksum(
+    uint8_t * start,
+    uint8_t * end);
 
 #ifdef __cplusplus
 }

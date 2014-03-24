@@ -144,6 +144,20 @@ composite(:person) do |c|
 end
 ```
 
+Composites may have an optional checksum automatically computed during
+pack and verified prior to unpack. This increases the size of
+serialized composite data by 4 bytes. The checksum is not accessible
+as a field in the generated struct or class definition--it is an
+internal feature of Cauterize. Checksums will only work with
+composites less than 64KB in size.
+
+```ruby
+composite(:dog) do |c|
+  c.checksum
+  c.field :name, :string_32
+end
+```
+
 ## Groups
 
 Groups are similar to C unions with one major difference. Each group is

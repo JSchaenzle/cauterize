@@ -70,6 +70,71 @@ S CauterizeRead(T * m, uint8_t * dst, uint32_t length)
   return CA_OK;
 }
 
+#define CHECKSUM_SIZE 4
+
+S CauterizeStartChecksum(T * m, uint32_t * start)
+{
+  CA_ASSERT(NULL != m);
+  CA_ASSERT(NULL != start);
+
+  if (m->size - m->used >= CHECKSUM_SIZE) {
+    m->used += CHECKSUM_SIZE;
+    *start = m->used;
+    return CA_OK;
+  }
+  else {
+    *start = 0;
+    return CA_ERR_NOT_ENOUGH_SPACE;
+  }
+}
+
+S CauterizeWriteChecksum(T * m, uint32_t start)
+{
+  CA_ASSERT(NULL != m);
+  CA_ASSERT(start >= CHECKSUM_SIZE);
+
+  S err;
+  T checksum_pos;
+  CauterizeInitAppend(&checksum_pos, m->buffer + start - CHECKSUM_SIZE, CHECKSUM_SIZE);
+  uint16_t length = m->used - start;
+  uint16_t checksum = CauterizeChecksum(m->buffer + start, m->buffer + m->used);
+  if (CA_OK != (err = CauterizeAppend(&checksum_pos, (uint8_t *)&length, sizeof(length)))) { return err; }
+  if (CA_OK != (err = CauterizeAppend(&checksum_pos, (uint8_t *)&checksum, sizeof(checksum)))) { return err; }
+  return CA_OK;
+}
+
+S CauterizeVerifyChecksum(T * m)
+{
+  CA_ASSERT(NULL != m);
+
+  S err;
+  uint16_t length;
+  uint16_t checksum;
+  if (CA_OK != (err = CauterizeRead(m, (uint8_t *)&length, sizeof(length)))) { return err; }
+  if (CA_OK != (err = CauterizeRead(m, (uint8_t *)&checksum, sizeof(checksum)))) { return err; }
+  if (m->used - m->pos < length) { return CA_ERR_NOT_ENOUGH_DATA; }
+  uint16_t verify = CauterizeChecksum(m->buffer + m->pos, m->buffer + m->pos + length);
+  if (verify != checksum) { return CA_ERR_INVALID_CHECKSUM; }
+  return CA_OK;
+}
+
+uint16_t CauterizeChecksum(uint8_t * start, uint8_t * end)
+{
+  CA_ASSERT(NULL != start);
+  CA_ASSERT(start <= end);
+
+  uint32_t sum = 0;
+  while (start < end) {
+    uint32_t lo = *start++;
+    uint32_t hi = (start < end) ? *start++ : 0;
+    sum += (hi << 8) | lo;
+  }
+  while (sum >> 16) {
+    sum = (sum & 0xffff) + (sum >> 16);
+  }
+  return ~sum;
+}
+
 #undef S
 #undef T
 #undef CAUTERIZE_C
