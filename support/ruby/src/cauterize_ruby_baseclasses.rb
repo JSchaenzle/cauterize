@@ -230,20 +230,60 @@ module CauterizeRuby
       end]
     end
 
+    def self.calc_checksum(s)
+      sum = 0
+      s.bytes.each_slice(2).each do |a, b|
+        sum += a
+        sum += b << 8 if b
+      end
+      sum = sum & 0xFFFFFFFF
+      until (sum >> 16) == 0
+        sum = (sum & 0xFFFF) + (sum >> 16)
+      end
+      return 0xFFFF ^ sum
+    end
+
     def to_ruby
       Hash[@fields.map{|name, value| [name, value.to_ruby]}]
     end
 
     def packio(x)
-      @fields.values.each do |v|
-        v.packio(x)
+      if self.class.needs_checksum
+        checksummed_contents = ""
+        @fields.values.each do |v|
+          v.packio(checksummed_contents)
+        end
+        len = UInt16.new(checksummed_contents.length)
+        checksum = UInt16.new(self.class.calc_checksum(checksummed_contents))
+        len.packio(x) 
+        checksum.packio(x)
+        x << checksummed_contents
+      else
+        @fields.values.each do |v|
+          v.packio(x)
+        end
       end
     end
 
     def self.do_unpackio(str)
-      self.new Hash[self.fields.keys.map do |k|
-        [k, self.fields[k].unpackio(str)]
-      end]
+      if needs_checksum
+        len = UInt16.unpackio(str)
+        exp_checksum = UInt16.unpackio(str)
+        checksummed_contents = str.read(len.to_i) 
+        checksum = calc_checksum(checksummed_contents) 
+        raise "Checksum failure" unless checksum == exp_checksum
+
+        s = StringIO.new(checksummed_contents)
+
+        self.new Hash[self.fields.keys.map do |k|
+          [k, self.fields[k].unpackio(s)]
+        end]
+
+      else
+        self.new Hash[self.fields.keys.map do |k|
+          [k, self.fields[k].unpackio(str)]
+        end]
+      end
     end
 
     def cmp(other)

@@ -6,6 +6,7 @@ module Cauterize::Builders::Ruby
 
     def class_defn(f)
       f << "  class #{render} < CauterizeRuby::Composite"
+      f << "    def self.needs_checksum() #{@blueprint.needs_checksum} end"
       @blueprint.fields.values.each do |field|
         f << "    def #{field.name}() fields[:#{field.name}] end"
       end

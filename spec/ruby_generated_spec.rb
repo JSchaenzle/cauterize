@@ -129,6 +129,15 @@ Cauterize.group(:creature) do |g|
   g.dataless :void
 end
 
+Cauterize.composite(:unicorn) do |u|
+  u.field :horn, :bool
+  u.field :foo1, :uint32
+  u.field :foo2, :uint32
+  u.field :foo3, :uint32
+  u.field :foo4, :uint32
+  u.checksum
+end
+
 Dir.mktmpdir do |tmpdir|
   @rb_path = File.join(tmpdir, "testing.rb")
 
@@ -622,6 +631,19 @@ module Cauterize
           x.pack.length.should == x.num_bytes
         end
       end
+
+      sample_unicorns = [ { horn: true,  foo1: 4,    foo2: 12345, foo3: 98766, foo4: 28349 },
+                          { horn: false, foo1: 2384, foo2: 789,   foo3: 3290,  foo4: 86753 } ]
+
+      sample_unicorns.each do |p|
+        it ".new and .to_ruby are inverses" do
+          ExampleProject::Unicorn.new(p).should == p
+        end
+        it "can pack, and unpack to its original value" do
+          ExampleProject::Unicorn.unpack((ExampleProject::Unicorn.new(p).pack)).should == p
+        end
+      end
+
 
       it "should raise an error if fields are missing during initialization" do
         lambda { ExampleProject::Person.new({ last_name: "Smith", gender: :MALE }) }.should raise_error("ExampleProject::Person: Invalid initialization params, missing fields: [:first_name], extra fields: []")
