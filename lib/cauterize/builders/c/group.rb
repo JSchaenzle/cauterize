@@ -97,17 +97,23 @@ module Cauterize
           formatter << render
           formatter.braces do
             Builders.get(:c, @tag_enum).declare(formatter, "tag")
-            formatter << "union"
-            formatter.braces do
-              @blueprint.fields.values.each do |field|
-                if field.type
-                  Builders.get(:c, field.type).declare(formatter, field.name)
-                else
-                  formatter << "/* No data associated with '#{field.name}'. */"
+            if @blueprint.fields.values.any?{|f| f.type}
+              formatter << "union"
+              formatter.braces do
+                @blueprint.fields.values.each do |field|
+                  if field.type
+                    Builders.get(:c, field.type).declare(formatter, field.name)
+                  else
+                    formatter << "/* No data associated with '#{field.name}'. */"
+                  end
                 end
               end
+              formatter.append(" data;")
+            else
+              @blueprint.fields.values.each do |field|
+                formatter << "/* No data associated with '#{field.name}'. */"
+              end
             end
-            formatter.append(" data;")
           end
           formatter.append(";")
         end
