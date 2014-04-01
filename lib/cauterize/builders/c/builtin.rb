@@ -17,8 +17,8 @@ module Cauterize
           formatter << "#{render} #{sym};"
         end
 
-        def preprocessor_defines(formatter)
-          formatter << "#define #{max_enc_len_cpp_sym} sizeof(#{render_ctype})"
+        def constant_defines(formatter)
+          formatter << "enum { #{max_enc_len_cpp_sym} = sizeof(#{render_ctype}) };"
         end
 
         # These are identical to the Scalar definitions. For now.

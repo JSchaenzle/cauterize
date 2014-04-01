@@ -25,7 +25,7 @@ module Cauterize
           formatter << "#{render} #{sym};"
         end
 
-        def preprocessor_defines(formatter)
+        def constant_defines(formatter)
           field_lens = @blueprint.fields.values.map do |field|
             if field.type.nil?
               nil
@@ -34,9 +34,9 @@ module Cauterize
             end
           end.compact
 
-          formatter << ["#define #{max_enc_len_cpp_sym}",
-                        "(#{enum_builder.max_enc_len_cpp_sym} +",
-                        Maxer.max_str(*field_lens)].join(" ") + ")"
+          formatter << ["enum { #{max_enc_len_cpp_sym} = ",
+                        "#{enum_builder.max_enc_len_cpp_sym} +",
+                        Maxer.max_str(*field_lens)].join(" ") + " };"
         end
 
         def packer_defn(formatter)

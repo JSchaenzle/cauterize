@@ -10,12 +10,12 @@ module Cauterize
           formatter << "#{render} #{sym};"
         end
 
-        def preprocessor_defines(formatter)
-          formatter << "#define #{length_sym} (#{@blueprint.array_size})"
+        def constant_defines(formatter)
+          formatter << "enum { #{length_sym} = #{@blueprint.array_size} };"
           formatter << [
-            "#define #{max_enc_len_cpp_sym} (",
+            "enum { #{max_enc_len_cpp_sym} = ",
             "#{size_type_builder.max_enc_len_cpp_sym} + ",
-            "(#{length_sym} * #{array_type_builder.max_enc_len_cpp_sym}))"].join
+            "(#{length_sym} * #{array_type_builder.max_enc_len_cpp_sym}) };"].join
         end
 
         def packer_defn(formatter)

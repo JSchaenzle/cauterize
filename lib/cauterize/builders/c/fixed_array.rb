@@ -10,9 +10,9 @@ module Cauterize
           formatter << "#{render} #{sym};"
         end
 
-        def preprocessor_defines(formatter)
-          formatter << "#define #{length_sym} (#{@blueprint.array_size})"
-          formatter << "#define #{max_enc_len_cpp_sym} (#{length_sym} * #{ty_bldr.max_enc_len_cpp_sym})"
+        def constant_defines(formatter)
+          formatter << "enum { #{length_sym} = #{@blueprint.array_size} };"
+          formatter << "enum { #{max_enc_len_cpp_sym} = #{length_sym} * #{ty_bldr.max_enc_len_cpp_sym} };"
         end
 
         def packer_defn(formatter)

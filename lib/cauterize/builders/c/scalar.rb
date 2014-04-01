@@ -15,8 +15,8 @@ module Cauterize
           formatter << "#{render} #{sym};"
         end
 
-        def preprocessor_defines(formatter)
-          formatter << "#define #{max_enc_len_cpp_sym} sizeof(#{render})"
+        def constant_defines(formatter)
+          formatter << "enum { #{max_enc_len_cpp_sym} = sizeof(#{render}) };"
         end
 
         def packer_defn(formatter)

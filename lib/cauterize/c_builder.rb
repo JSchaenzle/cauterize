@@ -40,9 +40,9 @@ module Cauterize
       instances = BaseType.all_instances
       builders = instances.map {|i| Builders.get(:c, i)}
 
-      builders.each { |b| b.preprocessor_defines(f) }
-      f.blank_line
       builders.each { |b| b.typedef_decl(f) }
+      f.blank_line
+      builders.each { |b| b.constant_defines(f) }
       f.blank_line
       builders.each { |b| b.enum_defn(f) }
       f.blank_line

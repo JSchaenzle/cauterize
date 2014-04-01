@@ -80,7 +80,7 @@ module Cauterize
         end
 
         # These are only different in a few type varieties.
-        def preprocessor_defines(formatter); nil end
+        def constant_defines(formatter); nil end
         def typedef_decl(formatter); nil end
         def struct_proto(formatter); nil end
         def struct_defn(formatter); nil end

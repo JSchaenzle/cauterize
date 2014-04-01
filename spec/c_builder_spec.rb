@@ -111,13 +111,13 @@ module Cauterize
           @h_text.should match /FEMALE = 1/
         end
 
-        it "includes preprocessor definitions for fixed and variable arrays" do
+        it "includes constant (enum) definitions for fixed and variable arrays" do
           @h_text.should match /FIXED_ARRAY_LENGTH_mac_address/
           @h_text.should match /VARIABLE_ARRAY_MAX_LENGTH_mac_table/
           @h_text.should match /VARIABLE_ARRAY_MAX_LENGTH_name/
         end
 
-        it "includes preprocessor definitions for maximum encoded length" do
+        it "includes constant (enum) definitions for maximum encoded length" do
           @h_text.should match /MAX_ENCODED_LENGTH_small_uint/
           @h_text.should match /MAX_ENCODED_LENGTH_mac_address/
           @h_text.should match /MAX_ENCODED_LENGTH_mac_table/
@@ -139,7 +139,7 @@ module Cauterize
           @c_text.should match /#include "testing.h"/
         end
 
-        it "uses the fixed array length preprocessor define" do
+        it "uses the fixed array length constant (enum) define" do
           @c_text.should match /FIXED_ARRAY_LENGTH_mac_address/
         end
 

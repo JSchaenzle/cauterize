@@ -32,10 +32,10 @@ module Cauterize
         end
       end
 
-      describe ".preprocessor_defines" do
+      describe ".constant_defines" do
         before do
           f = default_formatter
-          @b.preprocessor_defines(f)
+          @b.constant_defines(f)
           @fs = f.to_s
         end
 
