@@ -268,6 +268,7 @@ module CauterizeRuby
     def self.do_unpackio(str)
       if needs_checksum
         len = UInt16.unpackio(str)
+        raise "Checksummed length invalid" if len.to_i > self.max_size
         exp_checksum = UInt16.unpackio(str)
         checksummed_contents = str.read(len.to_i) 
         checksum = calc_checksum(checksummed_contents) 
