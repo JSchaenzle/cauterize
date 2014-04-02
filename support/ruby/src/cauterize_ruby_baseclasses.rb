@@ -291,16 +291,20 @@ module CauterizeRuby
       fields.values <=> other.fields.values
     end
 
+    def self.checksum_bytes
+      (self.needs_checksum) ? 4 : 0
+    end
+
     def num_bytes
-      fields.values.reduce(0) {|sum, v| sum + v.num_bytes}
+      self.class.checksum_bytes + fields.values.reduce(0) {|sum, v| sum + v.num_bytes}
     end
 
     def self.max_size
-      fields.values.reduce(0) {|sum, v| sum + v::max_size}
+      self.checksum_bytes + fields.values.reduce(0) {|sum, v| sum + v::max_size}
     end
 
     def self.min_size
-      fields.values.reduce(0) {|sum, v| sum + v::min_size}
+      self.checksum_bytes + fields.values.reduce(0) {|sum, v| sum + v::min_size}
     end
   end
 

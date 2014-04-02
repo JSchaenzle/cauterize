@@ -15,7 +15,9 @@ module Cauterize
             Builders.get(:c, field.type).max_enc_len_cpp_sym
           end
 
-          formatter << "enum { #{max_enc_len_cpp_sym} = (#{field_lens.join(" + ")}) };"
+          checksum_size = (@blueprint.needs_checksum) ? 4 : 0
+
+          formatter << "enum { #{max_enc_len_cpp_sym} = #{checksum_size} + #{field_lens.join(" + ")} };"
         end
 
         def packer_defn(formatter)
