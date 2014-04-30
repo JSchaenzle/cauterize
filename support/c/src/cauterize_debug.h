@@ -8,8 +8,11 @@
 #ifndef NDEBUG
 
 #include <stdio.h>
+
+#ifndef CA_ASSERT_PRINT
 #define CA_ASSERT_PRINT(msg) \
   fprintf(stderr, "ASSERT: %s (%s:%d)\n", msg, __FILE__, __LINE__);
+#endif
 
 #define CA_ASSERT(cond) CA_ASSERTm(#cond, cond)
 #define CA_ASSERTm(msg, cond) \
