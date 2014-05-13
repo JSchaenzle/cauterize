@@ -21,6 +21,10 @@ module Cauterize
           formatter << "enum { #{max_enc_len_cpp_sym} = sizeof(#{render_ctype}) };"
         end
 
+        def max_enc_len
+          @blueprint.byte_length
+        end
+
         # These are identical to the Scalar definitions. For now.
         def packer_defn(formatter)
           formatter << "return CauterizeAppend(dst, (uint8_t*)src, sizeof(*src));"

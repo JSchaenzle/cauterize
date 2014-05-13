@@ -18,6 +18,10 @@ module Cauterize
             "(#{length_sym} * #{array_type_builder.max_enc_len_cpp_sym}) };"].join
         end
 
+        def max_enc_len
+          size_type_builder.max_enc_len + (@blueprint.array_size * array_type_builder.max_enc_len)
+        end
+
         def packer_defn(formatter)
           formatter << "CAUTERIZE_STATUS_T err;"
           formatter << "size_t i;"

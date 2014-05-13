@@ -8,10 +8,13 @@ module Cauterize
 
     context "enumeration for type tag" do
       before do
-        Cauterize.scalar(:uint8_t)
+        Cauterize.scalar(:byte) do |_t|
+          _t.type_name :uint8
+        end
+
         @g = Cauterize.group!(:some_name) do |_g|
-          _g.field(:a, :uint8_t)
-          _g.field(:b, :uint8_t)
+          _g.field(:a, :byte)
+          _g.field(:b, :byte)
           _g.dataless(:c)
         end
         @b = Cauterize::Builders::C::Group.new(@g)
@@ -48,8 +51,8 @@ module Cauterize
         end
 
         it "includes the length of type synonyms 'a', 'b' in the max encoded length" do
-          @fs.should match /MAX_ENCODED_LENGTH_some_name.+MAX_ENCODED_LENGTH_uint8/
-          @fs.should match /MAX_ENCODED_LENGTH_some_name.+MAX_ENCODED_LENGTH_uint8/
+          @fs.should match /MAX_ENCODED_LENGTH_some_name.+MAX_ENCODED_LENGTH_byte/
+          @fs.should match /MAX_ENCODED_LENGTH_some_name.+MAX_ENCODED_LENGTH_byte/
         end
       end
 

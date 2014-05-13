@@ -20,6 +20,12 @@ module Cauterize
           formatter << "enum { #{max_enc_len_cpp_sym} = #{checksum_size} + #{field_lens.join(" + ")} };"
         end
 
+        def max_enc_len
+          @blueprint.fields.values.map{ |field|
+            Builders.get(:c, field.type).max_enc_len
+          }.reduce(0, :+)
+        end
+
         def packer_defn(formatter)
           formatter << "CAUTERIZE_STATUS_T err;"
           if @blueprint.needs_checksum

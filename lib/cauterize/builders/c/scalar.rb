@@ -11,6 +11,10 @@ module Cauterize
           formatter << "typedef #{tn_bldr.render} #{render};"
         end
 
+        def max_enc_len
+          Builders.get(:c, @blueprint.type_name).max_enc_len
+        end
+
         def declare(formatter, sym)
           formatter << "#{render} #{sym};"
         end

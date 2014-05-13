@@ -14,6 +14,10 @@ module Cauterize
           formatter << "enum { #{max_enc_len_cpp_sym} = (#{rep_builder.max_enc_len_cpp_sym}) };"
         end
 
+        def max_enc_len
+          rep_builder.max_enc_len
+        end
+
         def packer_defn(formatter)
           rep = "enum_representation"
           rep_builder.declare(formatter, rep)

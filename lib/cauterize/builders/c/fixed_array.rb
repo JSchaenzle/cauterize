@@ -15,6 +15,10 @@ module Cauterize
           formatter << "enum { #{max_enc_len_cpp_sym} = #{length_sym} * #{ty_bldr.max_enc_len_cpp_sym} };"
         end
 
+        def max_enc_len
+          @blueprint.array_size * ty_bldr.max_enc_len
+        end
+
         def packer_defn(formatter)
           formatter << "CAUTERIZE_STATUS_T err;"
           formatter << "size_t i;"

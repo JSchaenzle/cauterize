@@ -26,17 +26,28 @@ module Cauterize
         end
 
         def constant_defines(formatter)
-          field_lens = @blueprint.fields.values.map do |field|
-            if field.type.nil?
-              nil
-            else
-              Builders.get(:c, field.type).max_enc_len_cpp_sym
-            end
-          end.compact
-
           formatter << ["enum { #{max_enc_len_cpp_sym} = ",
-                        "#{enum_builder.max_enc_len_cpp_sym} +",
-                        Maxer.max_str(*field_lens)].join(" ") + " };"
+                        "#{enum_builder.max_enc_len_cpp_sym} + ",
+                        "#{largest_group_member.nil? ? "0" : largest_group_member.max_enc_len_cpp_sym}};"].join("")
+        end
+
+        def field_type_builders
+          @blueprint.fields.values.reject{|e| e.type.nil?}.map{|e| Builders.get(:c, e.type) }
+        end
+
+        def largest_group_member
+          type_builders = field_type_builders
+          return nil if type_builders.empty?
+          type_builders.max{|a, b|
+            a.max_enc_len <=> b.max_enc_len
+          }
+        end
+
+        def max_enc_len
+          enum_builder.max_enc_len +
+          (field_type_builders.map{|field|
+            field.max_enc_len
+          }.to_a + [0]).max
         end
 
         def packer_defn(formatter)
