@@ -49,6 +49,7 @@ module CauterizeRuby
   class Builtin < Data
     def initialize(val)
       @val = val
+      raise "#{self.class}: Out of range value: #{self.to_ruby}, for #{self.class}" if not self.in_range(self.to_ruby)
     end
     def to_ruby
       @val
@@ -101,7 +102,6 @@ module CauterizeRuby
     def initialize(val)
       # @builtin is going to be some form of Builtin
       @builtin = self.class.builtin.construct val
-      raise "#{self.class}: Out of range value: #{@builtin.to_ruby}, for #{self.class}" if not @builtin.in_range(@builtin.to_ruby)
     end
 
     def to_ruby

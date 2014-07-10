@@ -46,7 +46,7 @@ S CauterizeAppend(T * m, uint8_t * src, uint32_t length)
     return CA_ERR_NOT_ENOUGH_SPACE;
 
   uint8_t * dest = &m->buffer[m->used];
-  memcpy(dest, src, length);
+  memmove(dest, src, length);
   m->used += length;
 
   return CA_OK;

@@ -61,6 +61,10 @@ module Cauterize
         def struct_defn(formatter)
           formatter << render
           formatter.braces do
+            if @blueprint.needs_checksum
+              Builders.get(:c, Cauterize.builtins[:uint16]).declare(formatter, :checksumed_length)
+              Builders.get(:c, Cauterize.builtins[:uint16]).declare(formatter, :checksum)
+            end
             @blueprint.fields.values.each do |field|
               Builders.get(:c, field.type).declare(formatter, field.name)
             end
